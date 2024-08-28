@@ -17,9 +17,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! I’m Khai, a fourth-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
-[Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259). I am associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and I am a visiting student at [Statistical Information Lab](https://odin.mdacc.tmc.edu/~wwang7/people.html) at [The University of Texas MD Anderson Cancer Center](https://www.mdanderson.org/). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
+[Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
+[comment]: <> (and I am a visiting student at [Statistical Information Lab]&#40;https://odin.mdacc.tmc.edu/~wwang7/people.html&#41; at [The University of Texas MD Anderson Cancer Center]&#40;https://www.mdanderson.org/&#41;. )
 
 
 **Research:** My research focuses on both fundamental problems and applied problems in probabilistic machine learning, deep learning, and statistics.

@@ -24,6 +24,10 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Teaching Assistant
+      institution: The University of Texas at Austin
+      year: 2024-2025
+
     - title: Applied Scientist Intern
       institution: Amazon Science
       year: Summer 2024
