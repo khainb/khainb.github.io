@@ -6,4 +6,4 @@ inline: true
 ---
 
 1 paper **Integrating Efficient Optimal Transport and Functional Maps For Unsupervised
-Shape Correspondence Learning** is accepted at **CVPR2024**. 
+Shape Correspondence Learning** is accepted at **CVPR 2024**. 
