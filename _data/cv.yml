@@ -58,20 +58,23 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+        items:
+          - Top Reviewer Award at NeurIPS
     - year: 2023
       items:
-        - ICML 2023 Travel Grant (~$2,000)
+        - ICML 2023 Travel Grant
     - year: 2022
       items:
-        - Top Reviewer Award at NeurIPS (~$1,000)
-        - NeurIPS 2022 Scholar Award (~$2,000)
-        - ICML 2022 Travel Grant (~$2,000)
+        - Top Reviewer Award at NeurIPS
+        - NeurIPS 2022 Scholar Award
+        - ICML 2022 Travel Grant
     - year: 2021
       items: 
-        - UT Austin Graduate Fellowship (~$30,000)
+        - UT Austin Graduate Fellowship
 
 - title: Professional Services
   type: list
   contents:
     - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Information Theory, Machine Learning Journal.
-    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021-2024), ICML (2021-2024), ICLR (2022-2025), AISTATS (2022-2024), AAAI (2023-2025), CVPR (2023-2024), ICCV (2023), ECCV (2024), ICASSP (2024), COLM (2024).
+    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021-2024), ICML (2021-2024), ICLR (2022-2025), AISTATS (2022-2025), AAAI (2023-2025), CVPR (2023-2025), ICCV (2023), ECCV (2024), ICASSP (2024-2025), COLM (2024).
