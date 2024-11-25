@@ -1,18 +1,20 @@
-[comment]: <> (---)
+---
 
-[comment]: <> (layout: page)
+layout: page
 
-[comment]: <> (permalink: /teaching/)
+permalink: /mentoring/
 
-[comment]: <> (title: teaching)
+title: mentoring
 
-[comment]: <> (description: Materials for courses you taught. Replace this text with your description.)
+description: 
 
-[comment]: <> (nav: true)
+nav: true
 
-[comment]: <> (nav_order: 5)
+nav_order: 5
 
-[comment]: <> (---)
+---
+
+[Hai Nguyen](https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en): CS student at HUST, VinAI Research Resident.
 
 [comment]: <> (For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.)
 
