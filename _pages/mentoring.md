@@ -1,17 +1,17 @@
-[comment]: <> (---)
+---
 
-[comment]: <> (layout: page)
+layout: page
 
-[comment]: <> (permalink: /mentoring/)
+permalink: /mentoring/
 
-[comment]: <> (title: mentoring)
+title: mentoring
 
-[comment]: <> (description: )
+description: 
 
-[comment]: <> ([comment]: <> &#40;nav: true&#41;)
+[comment]: <> (nav: true)
 
-[comment]: <> (nav_order: 5)
+nav_order: 5
 
-[comment]: <> (---)
+---
 
-[comment]: <> ([Hai Nguyen]&#40;https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en&#41; - CS student at HUST and VinAI Research Resident  )
+[Hai Nguyen](https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en) - CS student at HUST and VinAI Research Resident  
