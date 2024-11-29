@@ -2,9 +2,9 @@
 
 layout: page
 
-permalink: /teach/
+permalink: /mentoring/
 
-title: Teaching
+title: Mentoring
 
 description: 
 
@@ -14,9 +14,7 @@ nav_order: 5
 
 ---
 
-[SDS 387: Linear Model](https://stat.utexas.edu/academics/graduate-course-inventory#SDS387): Teaching Assistant in Fall 2024
-
-[SDS 320E: Elements of Statistics](https://stat.utexas.edu/academics/undergraduate-course-inventory#SDS320E): Teaching Assistant in Fall 2024
+[Hai Nguyen](https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en): CS student at HUST, VinAI Research Resident.
 
 [comment]: <> (For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.)
 
