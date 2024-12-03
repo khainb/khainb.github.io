@@ -23,6 +23,9 @@ Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http
 
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
+*(This video is created by my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
+
+
 [comment]: <> (and I am a visiting student at [Statistical Information Lab]&#40;https://odin.mdacc.tmc.edu/~wwang7/people.html&#41; at [The University of Texas MD Anderson Cancer Center]&#40;https://www.mdanderson.org/&#41;. )
 
 
