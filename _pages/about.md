@@ -15,9 +15,8 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<video width="560" height="180" controls>
-  <source src="assets/video.mp4" type="video/mp4">
-</video>
+
+![Gif](assets/intro.gif)
 
 Hi! I’m Khai, a fourth-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
 [Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
