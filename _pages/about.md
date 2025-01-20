@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate at Department of Statistics and Data Sciences, University of Texas at Austin
 
 profile:
   align: right
   image: khai2.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
   more_info: >
 
