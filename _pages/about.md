@@ -25,7 +25,7 @@ Hi! I’m Khai, a fourth-year Ph.D. candidate at [Department of Statistics and D
 [Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
-<img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
+[comment]: <> (<img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">)
 
 *(This video is created by my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
 
