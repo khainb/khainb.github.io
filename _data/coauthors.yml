@@ -1,34 +1,68 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Nguyen":
+  - firstname: ["Dang"]
+    url: https://hsgser.github.io/
+  - firstname: ["Huy"]
+    url: https://huynm99.github.io/
+  - firstname: [ "Tan" ]
+    url: https://tanmnguyen89.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ho":
+  - firstname: ["Nhat"]
+    url: https://nhatptnk8912.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bariletto":
+  - firstname: ["Nicolas"]
+    url: https://nbariletto.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Bui":
+  - firstname: ["Hung"]
+    url: https://sites.google.com/site/buihhung/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Phung":
+  - firstname: ["Dinh"]
+    url: http://dinhphung.ml/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Le":
+  - firstname: ["Trung"]
+    url: https://scholar.google.com/citations?user=gysdMxwAAAAJ&hl=en
+  - firstname: ["Tung"]
+    url: https://tungthanhlee.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Ren":
+  - firstname: ["Tongzheng"]
+    url: https://www.cs.utexas.edu/~tzren/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+#"adams":
+#  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+#    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+#
+#"podolsky":
+#  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+#    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+#
+#"rosen":
+#  - firstname: ["Nathan", "N."]
+#    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+#
+#"bach":
+#  - firstname: ["Johann Sebastian", "J. S."]
+#    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+#
+#  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+#    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+#
+#"przibram":
+#  - firstname: ["Karl"]
+#    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+#
+#"schrodinger":
+#  - firstname: ["Erwin"]
+#    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+#
+#"lorentz":
+#  - firstname: ["Hendrik Antoon"]
+#    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+#
+#"planck":
+#  - firstname: ["Max"]
+#    url: https://en.wikipedia.org/wiki/Max_Planck
