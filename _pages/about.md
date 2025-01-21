@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Candidate at <a href='https://stat.utexas.edu/'>Department of Statistics and Data Sciences</a>, <a href='https://www.utexas.edu/'>University of Texas at Austin</a>
+subtitle: Ph.D. Candidate at <a href='https://stat.utexas.edu/'>Department of Statistics and Data Sciences</a>, <a href='https://www.utexas.edu/'>University of Texas at Austin</a> <br> khainb AT utexas.edu
 
 profile:
   align: right
