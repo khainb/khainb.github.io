@@ -1,16 +1,31 @@
----
-layout: page
-title: submenus
-nav: true
-nav_order: 8
-dropdown: true
-children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
----
+[comment]: <> (---)
+
+[comment]: <> (layout: page)
+
+[comment]: <> (title: submenus)
+
+[comment]: <> (nav: true)
+
+[comment]: <> (nav_order: 8)
+
+[comment]: <> (dropdown: true)
+
+[comment]: <> (children:)
+
+[comment]: <> (  - title: publications)
+
+[comment]: <> (    permalink: /publications/)
+
+[comment]: <> (  - title: divider)
+
+[comment]: <> (  - title: projects)
+
+[comment]: <> (    permalink: /projects/)
+
+[comment]: <> (  - title: divider)
+
+[comment]: <> (  - title: blog)
+
+[comment]: <> (    permalink: /blog/)
+
+[comment]: <> (---)
