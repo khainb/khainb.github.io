@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate at Department of Statistics and Data Sciences, University of Texas at Austin
 
