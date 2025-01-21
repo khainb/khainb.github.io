@@ -69,13 +69,8 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if author_last_name = "Nguyen" %}
-          {% if  author.first = "Khai" %}
-            {% assign author_is_self = true %}
-          {% endif %}
-        {%- endif -%}
-        {% if author_last_name = "Nguyen*" %}
-          {% if  author.first = "Khai" %}
+        {% if author_last_name = Nguyen %}
+          {% if  author.first = Khai %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
