@@ -1,8 +1,8 @@
-"Mueller":
+"mueller":
   - firstname: [ "Peter" ]
     url: https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259
 
-"Nguyen":
+"nguyen":
   - firstname: ["Dang"]
     url: https://hsgser.github.io/
   - firstname: ["Huy"]
@@ -10,28 +10,28 @@
   - firstname: [ "Tan" ]
     url: https://tanmnguyen89.github.io/
 
-"Ho":
+"ho":
   - firstname: ["Nhat"]
     url: https://nhatptnk8912.github.io/
 
-"Bariletto":
+"bariletto":
   - firstname: ["Nicolas"]
     url: https://nbariletto.github.io/
 
-"Bui":
+"bui":
   - firstname: ["Hung"]
     url: https://sites.google.com/site/buihhung/
 
-"Phung":
+"phung":
   - firstname: ["Dinh"]
     url: http://dinhphung.ml/
 
-"Le":
+"le":
   - firstname: ["Trung"]
     url: https://scholar.google.com/citations?user=gysdMxwAAAAJ&hl=en
   - firstname: ["Tung"]
     url: https://tungthanhlee.github.io/
 
-"Ren":
+"en":
   - firstname: ["Tongzheng"]
     url: https://www.cs.utexas.edu/~tzren/
