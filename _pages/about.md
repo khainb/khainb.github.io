@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Candidate at Department of Statistics and Data Sciences, University of Texas at Austin
+subtitle: Ph.D. Candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/)
 
 profile:
   align: right
