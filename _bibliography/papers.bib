@@ -8,6 +8,7 @@ abbr = {Preprint},
   selected = {true},
   pdf={https://arxiv.org/pdf/2411.14674.pdf},
   journal={Under Review},
+google_scholar_id={4fKUyHm3Qg0C},
   abstract={Existing methods to summarize posterior inference for mixture models focus on identifying a point estimate of the implied random partition for clustering, with density estimation as a secondary goal (Wade and Ghahramani, 2018; Dahl et al., 2022). We propose a novel approach for summarizing posterior inference in nonparametric Bayesian mixture models, prioritizing density estimation of the mixing measure (or mixture) as an inference target. One of the key features is the model-agnostic nature of the approach, which remains valid under arbitrarily complex dependence structures in the underlying sampling model. Using a decision-theoretic framework, our method identifies a point estimate by minimizing posterior expected loss. A loss function is defined as a discrepancy between mixing measures. Estimating the mixing measure implies inference on the mixture density. Exploiting the discrete nature of the mixing measure, we use a version of sliced Wasserstein distance. We introduce two specific variants for Gaussian mixtures. The first, mixed sliced Wasserstein, applies generalized geodesic projections on the product of the Euclidean space and the manifold of symmetric positive definite matrices. The second, sliced mixture Wasserstein, leverages the linearity of Gaussian mixture measures for efficient projection.},
   year={2025}
 }
@@ -19,6 +20,7 @@ abbr = {Preprint},
   selected = {true},
   pdf={https://arxiv.org/pdf/2405.07482.pdf},
   journal={Under Review},
+google_scholar_id={ldfaerwXgEUC},
   abstract={The sliced Wasserstein barycenter (SWB) is a widely acknowledged method for efficiently generalizing the averaging operation within probability measure spaces. However, achieving marginal fairness SWB, ensuring approximately equal distances from the barycenter to marginals, remains unexplored. The uniform weighted SWB is not necessarily the optimal choice to obtain the desired marginal fairness barycenter due to the heterogeneous structure of marginals and the non-optimality of the optimization. As the first attempt to tackle the problem, we define the marginal fairness sliced Wasserstein barycenter (MFSWB) as a constrained SWB problem. Due to the computational disadvantages of the formal definition, we propose two hyperparameter-free and computationally tractable surrogate MFSWB problems that implicitly minimize the distances to marginals and encourage marginal fairness at the same time. To further improve the efficiency, we perform slicing distribution selection and obtain the third surrogate definition by introducing a new slicing distribution that focuses more on marginally unfair projecting directions. We discuss the relationship of the three proposed problems and their relationship to sliced multi-marginal Wasserstein distance. Finally, we conduct experiments on finding 3D point-clouds averaging, color harmonization, and training of sliced Wasserstein autoencoder with class-fairness representation to show the favorable performance of the proposed surrogate MFSWB problems.},
   year={2025}
 }
@@ -28,6 +30,7 @@ abbr = {Preprint},
   title={Borrowing Strength in Distributionally Robust Optimization via Hierarchical Dirichlet Processes},
   author={Bariletto, Nicola and Nguyen, Khai and Ho, Nhat},
   journal={Under Review},
+google_scholar_id={im5fNaQAAAAJ:M05iB0D1s5AC},
   pdf={https://arxiv.org/pdf/2405.13160.pdf},
   abstract={This paper presents a novel optimization framework to address key challenges presented by
 modern machine learning applications: High dimensionality, distributional uncertainty, and data
@@ -53,6 +56,7 @@ abbr = {NeurIPS},
   pdf={https://arxiv.org/pdf/2404.15378.pdf},
   code={https://github.com/khainb/H2SW},
   journal={Neural Information Processing Systems},
+google_scholar_id={2P1L_qKh6hAC},
   abstract={Sliced Wasserstein (SW) and Generalized Sliced Wasserstein (GSW) have been widely used in applications due to their computational and statistical scalability. However, the SW and the GSW are only defined between distributions supported on a homogeneous domain. This limitation prevents their usage in applications with heterogeneous joint distributions with marginal distributions supported on multiple different domains. Using SW and GSW directly on the joint domains cannot make a meaningful comparison since their homogeneous slicing operator i.e., Radon Transform (RT) and Generalized Radon Transform (GRT) are not expressive enough to capture the structure of the joint supports set. To address the issue, we propose two new slicing operators i.e., Partial Generalized Radon Transform (PGRT) and Hierarchical Hybrid Radon Transform (HHRT). In greater detail, PGRT is the generalization of Partial Radon Transform (PRT), which transforms a subset of function arguments non-linearly while HHRT is the composition of PRT and multiple domain-specific PGRT on marginal domain arguments. By using HHRT, we extend the SW into Hierarchical Hybrid Sliced Wasserstein (H2SW) distance which is designed specifically for comparing heterogeneous joint distributions. We then discuss the topological, statistical, and computational properties of H2SW. Finally, we demonstrate the favorable performance of H2SW in 3D mesh deformation, deep 3D mesh autoencoders, and datasets comparison.},
   year={2024}
 }
@@ -67,6 +71,7 @@ abbr = {ICML},
   published={true},
   code={https://github.com/khainb/RPSW},
   pdf={https://arxiv.org/pdf/2401.15889.pdf},
+google_scholar_id={L8Ckcad2t8MC},
   abstract={Slicing distribution selection has been used as an effective technique to improve the performance of parameter estimators based on minimizing sliced Wasserstein distance in applications. Previous works either utilize expensive optimization to select the slicing distribution or use slicing distributions that require expensive sampling methods. In this work, we propose an optimization-free slicing distribution that provides a fast sampling for the Monte Carlo estimation of expectation. In particular, we introduce the random-path projecting direction (RPD) which is constructed  by leveraging the normalized difference between two random vectors following the two input measures. From the RPD, we derive the random-path slicing distribution (RPSD) and two variants of sliced Wasserstein, i.e., the Random-Path Projection Sliced Wasserstein (RPSW) and the Importance Weighted Random-Path Projection Sliced Wasserstein (IWRPSW). We then discuss the topological, statistical, and computational properties of RPSW and IWRPSW. Finally, we showcase the favorable performance of RPSW and IWRPSW in gradient flow and the training of denoising diffusion generative models on images.},
   year={2024}
 }
@@ -78,6 +83,7 @@ title={Integrating Efficient Optimal Transport and Functional Maps For Unsupervi
 author={Le, Thanh Tung and Nguyen, Khai and Sun, Shanlin and Ho, Nhat and Xie, Xiaohui},
 booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
 pdf={https://openreview.net/pdf?id=lz8a6ThNOi},
+google_scholar_id={NaGl4SEjCO4C},
 abstract={In the realm of computer vision and graphics, accurately establishing correspondences between geometric 3D shapes is pivotal for applications like object tracking, registration, texture transfer, and statistical shape analysis. Moving beyond traditional hand-crafted and data-driven feature learning methods, we incorporate spectral methods with deep learning, focusing on functional maps (FMs) and optimal transport (OT). Traditional OT-based approaches, often reliant on entropy regularization OT in learning-based framework, face computational challenges due to their quadratic cost. Our key contribution is to employ the sliced Wasserstein distance (SWD) for OT, which is a valid fast optimal transport metric in an unsupervised shape matching framework. This unsupervised framework integrates functional map regularizers with a novel OT-based loss derived from SWD, enhancing feature alignment between shapes treated as discrete probability measures. We also introduce an adaptive refinement process utilizing entropy regularized OT, further refining feature alignments for accurate point-to-point correspondences. Our method demonstrates superior performance in non-rigid shape matching, including near-isometric and non-isometric scenarios, and excels in downstream tasks like segmentation transfer. The empirical results on diverse datasets highlight our framework's effectiveness and generalization capabilities, setting new standards in non-rigid shape matching with efficient OT metrics and an adaptive refinement module.},
 year={2024}
 }
@@ -93,6 +99,7 @@ abbr = {ICLR},
 honor={Spotlight Presentation [Top 5\%]},
   pdf={https://arxiv.org/pdf/2309.11713.pdf},
   code={https://github.com/khainb/Quasi-SW},
+google_scholar_id={7PzlFSSx8tAC},
   abstract={Monte Carlo (MC) approximation has been used as the standard computation approach for the Sliced Wasserstein (SW) distance, which has an intractable expectation in its analytical form. However, the MC method is not optimal in terms of minimizing the absolute approximation error. To provide a better class of empirical SW, we propose quasi-sliced Wasserstein (QSW) approximations that rely on Quasi-Monte Carlo (QMC) methods. For a comprehensive investigation of QMC for SW, we focus on the 3D setting, specifically computing the SW between probability measures in three dimensions. In greater detail, we empirically verify various ways of constructing QMC points sets on the 3D unit-hypersphere, including Gaussian-based mapping, equal area mapping, generalized spiral points, and optimizing discrepancy energies. Furthermore, to obtain an unbiased estimation for stochastic optimization, we extend QSW into Randomized Quasi-Sliced Wasserstein (RQSW) by introducing randomness to the discussed low-discrepancy sequences. For theoretical properties, we prove the asymptotic convergence of QSW and the unbiasedness of RQSW. Finally, we conduct experiments on various 3D tasks, such as point-cloud comparison, point-cloud interpolation, image style transfer, and training deep point-cloud autoencoders, to demonstrate the favorable performance of the proposed QSW and RQSW variants.},
   year={2024}
 }
@@ -107,6 +114,7 @@ abbr = {ICLR},
   published={true},
   pdf={https://arxiv.org/pdf/2305.00402.pdf},
   code={https://github.com/khainb/CV-SW},
+google_scholar_id={Wp0gIr-vW9MC},
   abstract={The sliced Wasserstein (SW) distances between two probability measures are defined as the expectation of the Wasserstein distance between two one-dimensional projections of the two measures. The randomness comes from a projecting direction that is used to project the two input measures to one dimension. Due to the intractability of the expectation, Monte Carlo integration is performed to estimate the value of the SW distance. Despite having various variants, there has been no prior work that improves the Monte Carlo estimation scheme for the SW distance in terms of controlling its variance. To bridge the literature on variance reduction and the literature on the SW distance, we propose computationally efficient control variates to reduce the variance of the empirical estimation of the SW distance. The key idea is to first find Gaussian approximations of projected one-dimensional measures, then we utilize the closed-form of the Wasserstein-2 distance between two Gaussian distributions to design the control variates. In particular, we propose using a lower bound and an upper bound of the Wasserstein-2 distance between two fitted Gaussians as two computationally efficient control variates. We empirically show that the proposed control variate estimators can help to reduce the variance considerably when comparing measures over images and point-clouds. Finally, we demonstrate the favorable performance of the proposed control variate estimators in gradient flows to interpolate between two point-clouds and in deep generative modeling on standard image datasets, such as CIFAR10 and CelebA.},
   year={2024}
 }
@@ -118,6 +126,7 @@ abbr = {ICLR},
   journal={International Conference on Learning Representations},
   selected = {false},
   published={true},
+google_scholar_id={im5fNaQAAAAJ:9ZlFYXVOiuMC},
   pdf={https://arxiv.org/pdf/2305.17555.pdf},
   abstract={Mesh deformation is a core task for 3D mesh reconstruction, but defining an efficient
 discrepancy between predicted and target meshes remains an open problem. A prevalent
@@ -149,6 +158,7 @@ abbr = {ICLR},
   code={https://github.com/v-manhlt3/m-LTM-Audio-Text-Retrieval},
   published={true},
   pdf={https://openreview.net/pdf?id=l60EM8md3t},
+google_scholar_id={qUcmZB5y_30C},
   abstract={Learning-to-match (LTM) is an effective inverse optimal transport framework for learning the underlying ground metric between two sources of data, which can be further used to form the matching between them. Nevertheless, the conventional LTM framework is not scalable since it needs to use the entire dataset each time updating the parametric ground metric. To adapt the LTM framework to the deep learning setting, we propose the mini-batch learning-to-match (m-LTM) framework for audio-text retrieval problems, which is based on mini-batch subsampling and neural networks parameterized ground metric. In addition, we improve further the framework by introducing the Mahalanobis-enhanced family of ground metrics. Moreover, to cope with the noisy data correspondence problem arising from practice, we additionally propose a variant using partial optimal transport to mitigate the pairing uncertainty in training data. We conduct extensive experiments on audio-text matching problems using three datasets: AudioCaps, Clotho, and ESC-50. Results demonstrate that our proposed method is capable of learning rich and expressive joint embedding space, which achieves SOTA performance. Beyond this, the proposed m-LTM framework is able to close the modality gap across audio and text embedding, which surpasses both triplet and contrastive loss in the zero-shot sound event detection task on the ESC-50 dataset. Finally, our strategy to use partial OT with m-LTM has shown to be more noise tolerance than contrastive loss under a variant of noise ratio of training data in AudioCaps.},
   year={2024}
 }
@@ -159,6 +169,7 @@ abbr = {AISTATS},
   journal={International Conference on Artificial Intelligence and Statistics},
   published={true},
   pdf ={https://arxiv.org/pdf/2305.07572.pdf},
+google_scholar_id={dhFuZR0502QC},
   abstract={Originally introduced as a neural network for ensemble learning, mixture of experts (MoE) has recently become a fundamental building block of highly successful modern deep neural networks for heterogeneous data analysis in several applications, including those in machine learning, statistics, bioinformatics, economics, and medicine. Despite its popularity in practice, a satisfactory level of understanding of the convergence behavior of Gaussian-gated MoE parameter estimation is far from complete. The underlying reason for this challenge is the inclusion of covariates in the Gaussian gating and expert networks, which leads to their intrinsically complex interactions via partial differential equations with respect to their parameters. We address these issues by designing novel Voronoi loss functions to accurately capture heterogeneity in the maximum likelihood estimator (MLE) for resolving parameter estimation in these models. Our results reveal distinct behaviors of the MLE under two settings: the first setting is when all the location parameters in the Gaussian gating are non-zeros while the second setting is when there exists at least one zero-valued location parameter. Notably, these behaviors can be characterized by the solvability of two different systems of polynomial equations. Finally, we conduct a simulation study to verify our theoretical results.},
   year={2024}
 }
@@ -170,6 +181,7 @@ abbr = {AISTATS},
   journal={International Conference on Artificial Intelligence and Statistics},
   published={true},
   pdf={https://arxiv.org/pdf/2402.05220.pdf},
+google_scholar_id={ZeXyd9-uunAC},
   abstract={We consider the parameter estimation problem in the \emph{deviated Gaussian mixture of experts} in which the data are generated from $(1 - \lambda^{*}) g_0(Y| X)
     + \lambda^{*} \sum_{i = 1}^{k_{*}} p_{i}^{*} f(Y|h_{1}(X, \theta_{1i}^{*}), h_{2}(X, \theta_{2i}^{*}))$, where $X, Y$ are respectively covariates and the response variable, $g_{0}(Y|X)$ is a known function, $\lambda^{*} \in [0, 1]$ is true but unknown mixing proportion, and $(p_{i}^{*}, \theta_{1i}^{*}, \theta_{2i}^{*})$ for $1 \leq i \leq k^{*}$ are unknown parameters of the Gaussian mixture of experts with expert functions $h_{1}(X,.)$ and $h_{2}(X,.)$. This problem arises from the goodness-of-fit test when we would like to test whether the data are generated from $g_{0}(Y|X)$ (null hypothesis) or they are generated from the whole mixture (alternative hypothesis). Based on the algebraic structure of the expert functions and the distinguishability between $g_0$ and the mixture part, we design novel Voronoi-based loss functions to capture the convergence rates of the maximum likelihood estimation (MLE) for our models. We further demonstrate that our proposed loss functions are better than the generalized Wasserstein, a loss function being used in Gaussian mixture of experts for parameter estimation, at characterizing the local convergence rates of parameters.},
   year={2024}
@@ -183,6 +195,7 @@ abbr = {NeurIPS},
   published={true},
   pdf={https://arxiv.org/pdf/2304.13586.pdf},
   code={https://github.com/khainb/EBSW},
+google_scholar_id={4DMP91E08xMC},
   abstract={The sliced Wasserstein (SW) distance has been widely recognized as a statistically effective and computationally efficient metric between two probability measures. A key component of the SW distance is the slicing distribution. There are two existing approaches for choosing this distribution. The first approach is using a fixed prior distribution. The second approach is optimizing for the best distribution which belongs to a parametric family of distributions and can maximize the expected distance. However, both approaches have their limitations. A fixed prior distribution is non-informative in terms of highlighting projecting directions that can discriminate two general probability measures. Doing optimization for the best distribution is often expensive and unstable. Moreover, designing the parametric family of the candidate distribution could be easily misspecified. To address the issues, we propose to design the slicing distribution as an energy-based distribution that is parameter-free and has the density proportional to an energy function of the projected one-dimensional Wasserstein distance. We then derive a novel sliced Wasserstein metric, energy-based sliced Waserstein (EBSW) distance, and investigate its topological, statistical, and computational properties via importance sampling, sampling importance resampling, and Markov Chain methods. Finally, we conduct experiments on point-cloud gradient flow, color transfer, and point-cloud reconstruction to show the favorable performance of the EBSW.},
   year={2023}
 }
@@ -194,6 +207,7 @@ abbr = {NeurIPS},
   journal={Neural Information Processing Systems},
   pdf ={https://arxiv.org/pdf/2301.11808.pdf},
   published={true},
+google_scholar_id={im5fNaQAAAAJ:aqlVkmm33-oC},
   abstract={We study the maximum likelihood estimation (MLE) in the \modelname \ where the data are generated from the density function $(1-\lambda^{*})h_{0}(x)+\lambda^{*}f(x|\mu^{*}, \Sigma^{*})$ where $h_{0}$ is a known function, $\lambda^{*} \in [0,1]$ and $(\mu^{*}, \Sigma^{*})$ are unknown parameters to estimate. The main challenges in deriving the convergence rate of the MLE mainly come from two issues: (1) The interaction between the function $h_{0}$ and the density function $f$; (2) The deviated proportion $\lambda^{*}$ can go to the extreme points of $[0,1]$ as the sample size goes to infinity. To address these challenges, we develop the \emph{distinguishability condition} to capture the linear independent relation between the function $h_{0}$ and the density function $f$. We then provide comprehensive convergence rates of the MLE via the vanishing rate of $\lambda^{*}$ to 0 as well as the distinguishability of $h_{0}$ and $f$.},
   year={2023}
 }
@@ -210,6 +224,7 @@ abbr = {NeurIPS},
   published={true},
   pdf={https://arxiv.org/pdf/2301.03749.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/MSW},
+google_scholar_id={M3ejUd6NZC8C},
   abstract={Sliced Wasserstein (SW) distance suffers from redundant projections due to independent uniform random projecting directions. To partially overcome the issue, max K sliced Wasserstein (Max-K-SW) distance (K≥1), seeks the best discriminative orthogonal projecting directions. Despite being able to reduce the number of projections, the metricity of Max-K-SW cannot be guaranteed in practice due to the non-optimality of the optimization. Moreover, the orthogonality constraint is also computationally expensive and might not be effective. To address the problem, we introduce a new family of SW distances, named Markovian sliced Wasserstein (MSW) distance, which imposes a first-order Markov structure on projecting directions. We discuss various members of MSW by specifying the Markov structure including the prior distribution, the transition distribution, and the burning and thinning technique. Moreover, we investigate the theoretical properties of MSW including topological properties (metricity, weak convergence, and connection to other distances), statistical properties (sample complexity, and Monte Carlo estimation error), and computational properties (computational complexity and memory complexity). Finally, we compare MSW distances with previous SW variants in various applications such as gradient flows, color transfer, and deep generative modeling to demonstrate the favorable performance of MSW.}
   }
 
@@ -221,6 +236,7 @@ abbr = {NeurIPS},
   year={2023},
   published={true},
   pdf={https://arxiv.org/pdf/2210.05794.pdf},
+google_scholar_id={Zph67rFs4hoC},
   abstract={Recent advances in Transformer architecture have empowered its empirical success in various tasks across different domains. However, existing works mainly focus on improving the standard accuracy and computational cost, without considering the robustness of contaminated samples. Existing work has shown that the self-attention mechanism, which is the center of the Transformer architecture, can be viewed as a non-parametric estimator based on the well-known kernel density estimation (KDE). This motivates us to leverage the robust kernel density estimation (RKDE) in the self-attention mechanism, to alleviate the issue of the contamination of data by down-weighting the weight of bad samples in the estimation process. The modified self-attention mechanism can be incorporated into different Transformer variants. Empirical results on language modeling and image classification tasks demonstrate the effectiveness of this approach.}
   }
 @article{nguyen2023selfattention,
@@ -233,6 +249,7 @@ abbr = {ICML},
   published={true},
   pdf={https://arxiv.org/pdf/2301.04791.pdf},
   code={https://github.com/hsgser/Self-Amortized-DSW},
+google_scholar_id={qxL8FJ1GzNcC},
   abstract={Max sliced Wasserstein (Max-SW) distance has been widely known as a solution for redundant projections of sliced Wasserstein (SW) distance. In applications that have various independent pairs of probability measures, amortized projection optimization is utilized to predict the ``max" projecting directions given two input measures instead of using projected gradient ascent multiple times. Despite being efficient, the first issue of the current framework is the violation of permutation invariance property and symmetry property. To address the issue, we propose to design amortized models based on self-attention architecture. Moreover, we adopt efficient self-attention architectures to make the computation linear in the number of supports. Secondly, Max-SW and its amortized version cannot guarantee metricity property due to the sub-optimality of the projected gradient ascent and the amortization gap. Therefore, we propose to replace Max-SW with distributional sliced Wasserstein distance with von Mises-Fisher (vMF) projecting distribution (v-DSW). Since v-DSW is a metric with any non-degenerate vMF distribution, its amortized version can guarantee the metricity when predicting the best discriminate projecting distribution. With the two improvements, we derive self-attention amortized distributional projection optimization and show its appealing performance in point-cloud reconstruction and its downstream applications.}
   }
 
@@ -245,6 +262,7 @@ abbr = {ICASSP},
   selected = {false},
   published={true},
   pdf={https://arxiv.org/pdf/2210.10268.pdf},
+google_scholar_id={ULOm3_A8WrAC},
   abstract={Generalized sliced Wasserstein distance is a variant of sliced Wasserstein distance that exploits the power of non-linear projection through a given defining function to better capture the complex structures of the probability distributions. Similar to sliced Wasserstein distance, generalized sliced Wasserstein is defined as an expectation over random projections which can be approximated by the Monte Carlo method. However, the complexity of that approximation can be expensive in high-dimensional settings. To that end, we propose to form deterministic and fast approximations of the generalized sliced Wasserstein distance by using the concentration of random projections when the defining functions are polynomial function, circular function, and neural network type function. Our approximations hinge upon an important result that one-dimensional projections of a high-dimensional random vector are approximately Gaussian.}
   }
 
@@ -259,6 +277,7 @@ abbr = {ICLR},
   selected = {true},
   pdf={https://arxiv.org/pdf/2209.13570.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/HSW},
+google_scholar_id={KlAtU1dfN6UC},
   abstract={Sliced Wasserstein (SW) distance has been widely used in different application scenarios since it can be scaled to a large number of supports without suffering from the curse of dimensionality. The value of sliced Wasserstein distance is the average of transportation cost between one-dimensional representations (projections) of original measures that are obtained by Radon Transform (RT). Despite its efficiency in the number of supports, estimating the sliced Wasserstein requires a relatively large number of projections in high-dimensional settings. Therefore, for applications where the number of supports is relatively small compared with the dimension, e.g., several deep learning applications where the mini-batch approaches are utilized, the complexities from matrix multiplication of Radon Transform become the main computational bottleneck. To address this issue, we propose to derive projections by linearly and randomly combining a smaller number of projections which are named bottleneck projections. We explain the usage of these projections by introducing Hierarchical Radon Transform (HRT) which is constructed by applying Radon Transform variants recursively. We then formulate the approach into a new metric between measures, named Hierarchical Sliced Wasserstein (HSW) distance. By proving the injectivity of HRT, we derive the metricity of HSW. Moreover, we investigate the theoretical properties of HSW including its connection to SW variants and its computational and sample complexities. Finally, we compare the computational cost and generative quality of HSW with the conventional SW on the task of deep generative modeling using various benchmark datasets including CIFAR10, CelebA, and Tiny ImageNet.}
   }
 
@@ -273,6 +292,7 @@ abbr = {NeurIPS},
   published={true},
   pdf={https://arxiv.org/pdf/2204.01188.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/CSW},
+google_scholar_id={5nxA0vEk-isC},
   abstract={The conventional sliced Wasserstein is defined between two probability measures that have realizations as vectors. When comparing two probability measures over images, practitioners first need to vectorize images and then project them to one-dimensional space by using matrix multiplication between the sample matrix and the projection matrix. After that, the sliced Wasserstein is evaluated by averaging the two corresponding one-dimensional projected probability measures. However, this approach has two limitations. The first limitation is that the spatial structure of images is not captured efficiently by the vectorization step; therefore, the later slicing process becomes harder to gather the discrepancy information. The second limitation is memory inefficiency since each slicing direction is a vector that has the same dimension as the images. To address these limitations, we propose novel slicing methods for sliced Wasserstein between probability measures over images that are based on the convolution operators. We derive convolution sliced Wasserstein (CSW) and its variants via incorporating stride, dilation, and non-linear activation function into the convolution operators. We investigate the metricity of CSW as well as its sample complexity, its computational complexity, and its connection to conventional sliced Wasserstein distances. Finally, we demonstrate the favorable performance of CSW over the conventional sliced Wasserstein in comparing probability measures over images and in training deep generative modeling on images.}
   }
 
@@ -286,6 +306,7 @@ abbr = {NeurIPS},
   published={true},
   pdf={https://arxiv.org/pdf/2203.13417.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/AmortizedSW},
+google_scholar_id={hqOjcs7Dif8C},
   abstract={The conventional sliced Wasserstein is defined between two probability measures that have realizations as vectors. When comparing two probability measures over images, practitioners first need to vectorize images and then project them to one-dimensional space by using matrix multiplication between the sample matrix and the projection matrix. After that, the sliced Wasserstein is evaluated by averaging the two corresponding one-dimensional projected probability measures. However, this approach has two limitations. The first limitation is that the spatial structure of images is not captured efficiently by the vectorization step; therefore, the later slicing process becomes harder to gather the discrepancy information. The second limitation is memory inefficiency since each slicing direction is a vector that has the same dimension as the images. To address these limitations, we propose novel slicing methods for sliced Wasserstein between probability measures over images that are based on the convolution operators. We derive convolution sliced Wasserstein (CSW) and its variants via incorporating stride, dilation, and non-linear activation function into the convolution operators. We investigate the metricity of CSW as well as its sample complexity, its computational complexity, and its connection to conventional sliced Wasserstein distances. Finally, we demonstrate the favorable performance of CSW over the conventional sliced Wasserstein in comparing probability measures over images and in training deep generative modeling on images.}
 }
 
@@ -298,6 +319,7 @@ abbr = {NeurIPS},
   year={2022},
   published={true},
   pdf={https://arxiv.org/pdf/2206.00206.pdf},
+google_scholar_id={RYcK_YlVTxYC},
   abstract={Multi-head attention empowers the recent success of transformers, the state-of-the-art models that have achieved remarkable success in sequence modeling and beyond. These attention mechanisms compute the pairwise dot products between the queries and keys, which results from the use of unnormalized Gaussian kernels with the assumption that the queries follow a mixture of Gaussian distribution. There is no guarantee that this assumption is valid in practice. In response, we first interpret attention in transformers as a nonparametric kernel regression. We then propose the FourierFormer, a new class of transformers in which the dot-product kernels are replaced by the novel generalized Fourier integral kernels. Different from the dot-product kernels, where we need to choose a good covariance matrix to capture the dependency of the features of data, the generalized Fourier integral kernels can automatically capture such dependency and remove the need to tune the covariance matrix. We theoretically prove that our proposed Fourier integral kernels can efficiently approximate any key and query distributions. Compared to the conventional transformers with dot-product attention, FourierFormers attain better accuracy and reduce the redundancy between attention heads. We empirically corroborate the advantages of FourierFormers over the baseline transformers in a variety of practical applications including language modeling and image classification.}
 }
 
@@ -310,6 +332,7 @@ abbr = {NeurIPS},
   pdf={https://openreview.net/pdf?id=0VFQhPGF1M3},
   year={2022},
   published={true},
+google_scholar_id={4TOpqqG69KYC},
   abstract={Multi-head attention empowers the recent success of transformers, the state-of-the-art models that have achieved remarkable success in sequence modeling and beyond. These attention mechanisms compute the pairwise dot products between the queries and keys, which results from the use of unnormalized Gaussian kernels with the assumption that the queries follow a mixture of Gaussian distribution. There is no guarantee that this assumption is valid in practice. In response, we first interpret attention in transformers as a nonparametric kernel regression. We then propose the FourierFormer, a new class of transformers in which the dot-product kernels are replaced by the novel generalized Fourier integral kernels. Different from the dot-product kernels, where we need to choose a good covariance matrix to capture the dependency of the features of data, the generalized Fourier integral kernels can automatically capture such dependency and remove the need to tune the covariance matrix. We theoretically prove that our proposed Fourier integral kernels can efficiently approximate any key and query distributions. Compared to the conventional transformers with dot-product attention, FourierFormers attain better accuracy and reduce the redundancy between attention heads. We empirically corroborate the advantages of FourierFormers over the baseline transformers in a variety of practical applications including language modeling and image classification.}
 }
 
@@ -324,6 +347,7 @@ abbr = {ICML},
   selected = {true},
   published={true},
   code={https://github.com/UT-Austin-Data-Science-Group/Mini-batch-OT},
+google_scholar_id={2osOgNQ5qMEC},
   abstract=	 {Mini-batch optimal transport (m-OT) has been widely used recently to deal with the memory issue of OT in large-scale applications. Despite their practicality, m-OT suffers from misspecified mappings, namely, mappings that are optimal on the mini-batch level but are partially wrong in the comparison with the optimal transportation plan between the original measures. Motivated by the misspecified mappings issue, we propose a novel mini-batch method by using partial optimal transport (POT) between mini-batch empirical measures, which we refer to as mini-batch partial optimal transport (m-POT). Leveraging the insight from the partial transportation, we explain the source of misspecified mappings from the m-OT and motivate why limiting the amount of transported masses among mini-batches via POT can alleviate the incorrect mappings. Finally, we carry out extensive experiments on various applications such as deep domain adaptation, partial domain adaptation, deep generative model, color transfer, and gradient flow to demonstrate the favorable performance of m-POT compared to current mini-batch methods.}
   }
 
@@ -342,6 +366,7 @@ abbr = {ICML},
   selected = {true},
   published={true},
   code={https://github.com/UT-Austin-Data-Science-Group/Mini-batch-OT},
+google_scholar_id={UeHWp8X0CEIC},
   abstract = 	{Mini-batch optimal transport (m-OT) has been successfully used in practical applications that involve probability measures with a very high number of supports. The m-OT solves several smaller optimal transport problems and then returns the average of their costs and transportation plans. Despite its scalability advantage, the m-OT does not consider the relationship between mini-batches which leads to undesirable estimation. Moreover, the m-OT does not approximate a proper metric between probability measures since the identity property is not satisfied. To address these problems, we propose a novel mini-batch scheme for optimal transport, named Batch of Mini-batches Optimal Transport (BoMb-OT), that finds the optimal coupling between mini-batches and it can be seen as an approximation to a well-defined distance on the space of probability measures. Furthermore, we show that the m-OT is a limit of the entropic regularized version of the BoMb-OT when the regularized parameter goes to infinity. Finally, we carry out experiments on various applications including deep generative models, deep domain adaptation, approximate Bayesian computation, color transfer, and gradient flow to show that the BoMb-OT can be widely applied and performs well in various applications.}
 }
 
@@ -358,6 +383,7 @@ abbr = {AISTATS},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v151/le22a/le22a.pdf},
   url = 	 {https://proceedings.mlr.press/v151/le22a.html},
+google_scholar_id={kNdYIx-mwKoC},
   abstract ={We study the multi-marginal partial optimal transport (POT) problem between  discrete (unbalanced) measures with at most  supports. We first prove that we can obtain two equivalent forms of the multimarginal POT problem in terms of the multimarginal optimal transport problem via novel extensions of cost tensors. The first equivalent form is derived under the assumptions that the total masses of each measure are sufficiently close while the second equivalent form does not require any conditions on these masses but at the price of more sophisticated extended cost tensor. Our proof techniques for obtaining these equivalent forms rely on novel procedures of moving mass in graph theory to push transportation plan into appropriate regions. Finally, based on the equivalent forms, we develop an optimization algorithm, named the ApproxMPOT algorithm, that builds upon the Sinkhorn algorithm for solving the entropic regularized multimarginal optimal transport. We demonstrate that the ApproxMPOT algorithm can approximate the optimal value of multimarginal POT problem with a computational complexity upper bound of the order $\bigOtil (m^ 3 (n+ 1)^{m}/\varepsilon^ 2) $ where  stands for the desired tolerance.},
   published={true}
 }
@@ -371,7 +397,7 @@ abbr = {NeurIPS},
   year={2021},
   published={true},
   pdf={https://proceedings.NeurIPS.cc/paper/2021/file/80a160ff31266be2f93012a2a3eca713-Paper.pdf},
-google_scholar_id={im5fNaQAAAAJ:35N4QoGY0k4C},
+google_scholar_id={35N4QoGY0k4C},
   abstract={Approximate inference in Bayesian deep networks exhibits a dilemma of how to yield high fidelity posterior approximations while maintaining computational efficiency and scalability. We tackle this challenge by introducing a novel variational structured approximation inspired by the Bayesian interpretation of Dropout regularization. Concretely, we focus on the inflexibility of the factorized structure in Dropout posterior and then propose an improved method called Variational Structured Dropout (VSD). VSD employs an orthogonal transformation to learn a structured representation on the variational Gaussian noise with plausible complexity, and consequently induces statistical dependencies in the approximate posterior. Theoretically, VSD successfully addresses the pathologies of previous Variational Dropout methods and thus offers a standard Bayesian justification. We further show that VSD induces an adaptive regularization term with several desirable properties which contribute to better generalization. Finally, we conduct extensive experiments on standard benchmarks to demonstrate the effectiveness of VSD over state-of-the-art variational methods on predictive accuracy, uncertainty estimation, and out-of-distribution detection.}
 }
 
@@ -384,7 +410,7 @@ abbr = {ICASSP},
   year={2023},
   published={true},
   pdf={https://arxiv.org/pdf/2110.15538.pdf},
-google_scholar_id={im5fNaQAAAAJ:vV6vV6tmYwMC},
+google_scholar_id={vV6vV6tmYwMC},
   abstract={Layer-wise model fusion via optimal transport, named OTFusion, applies soft neuron association for unifying different pre-trained networks to save computational resources. While enjoying its success, OTFusion requires the input networks to have the same number of layers. To address this issue, we propose a novel model fusion framework, named CLAFusion, to fuse neural networks with a different number of layers, which we refer to as heterogeneous neural networks, via cross-layer alignment. The cross-layer alignment problem, which is an unbalanced assignment problem, can be solved efficiently using dynamic programming. Based on the cross-layer alignment, our framework balances the number of layers of neural networks before applying layer-wise model fusion. Our experiments indicate that CLAFusion, with an extra finetuning process, improves the accuracy of residual networks on CIFAR10 and CIFAR100 datasets. Furthermore, we explore its practical usage for model compression and knowledge distillation when applying to the teacher-student setting.}
 }
 @article{
@@ -398,7 +424,7 @@ url={https://arxiv.org/abs/2010.01787},
 selected = {true},
 published={true},
 pdf={https://arxiv.org/pdf/2010.01787.pdf},
-google_scholar_id={m5fNaQAAAAJ:2osOgNQ5qMEC},
+google_scholar_id={2osOgNQ5qMEC},
 abstract={Relational regularized autoencoder (RAE) is a framework to learn the distribution of data by minimizing a reconstruction loss together with a relational regularization on the prior of latent space. A recent attempt to reduce the inner discrepancy between the prior and aggregated posterior distributions is to incorporate sliced fused Gromov-Wasserstein (SFG) between these distributions. That approach has a weakness since it treats every slicing direction similarly, meanwhile several directions are not useful for the discriminative task. To improve the discrepancy and consequently the relational regularization, we propose a new relational discrepancy, named spherical sliced fused Gromov Wasserstein (SSFG), that can find an important area of projections characterized by a von Mises-Fisher distribution. Then, we introduce two variants of SSFG to improve its performance. The first variant, named mixture spherical sliced fused Gromov Wasserstein (MSSFG), replaces the vMF distribution by a mixture of von Mises-Fisher distributions to capture multiple important areas of directions that are far from each other. The second variant, named power spherical sliced fused Gromov Wasserstein (PSSFG), replaces the vMF distribution by a power spherical distribution to improve the sampling time of the vMF distribution in high dimension settings. We then apply the new discrepancies to the RAE framework to achieve its new variants. Finally, we conduct extensive experiments to show that the new autoencoders have favorable performance in learning latent manifold structure, image generation, and reconstruction.}
 }
 
@@ -417,5 +443,5 @@ honor={Spotlight Presentation [Top 3.78\%]},
 abstract={Sliced-Wasserstein distance (SW) and its variant, Max Sliced-Wasserstein distance (Max-SW), have been used widely in the recent years due to their fast computation and scalability even when the probability measures lie in a very high dimensional space. However, SW requires many unnecessary projection samples to approximate its value while Max-SW only uses the most important projection, which ignores the information of other useful directions. In order to account for these weaknesses, we propose a novel distance, named Distributional Sliced-Wasserstein distance (DSW), that finds an optimal distribution over projections that can balance between exploring distinctive projecting directions and the informativeness of projections themselves. We show that the DSW is a generalization of Max-SW, and it can be computed efficiently by searching for the optimal push-forward measure over a set of probability measures over the unit sphere satisfying certain regularizing constraints that favor distinct directions. Finally, we conduct extensive experiments with large-scale datasets to demonstrate the favorable performances of the proposed distances over the previous sliced-based distances in generative modeling applications.},
 code={https://github.com/VinAIResearch/DSW},
 pdf={https://arxiv.org/pdf/2002.07367.pdf},
-  google_scholar_id={im5fNaQAAAAJ:u5HHmVD_uO8C},
+  google_scholar_id={u5HHmVD_uO8C},
 }

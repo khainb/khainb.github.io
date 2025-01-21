@@ -1,38 +1,27 @@
-[comment]: <> (---)
+---
 
-[comment]: <> (layout: profiles)
+layout: profiles
 
-[comment]: <> (permalink: /people/)
+permalink: /people/
 
-[comment]: <> (title: people)
+title: Mentoring
 
-[comment]: <> (description: members of the lab or group)
+description: 
 
-[comment]: <> (nav: true)
+nav: true
 
-[comment]: <> (nav_order: 7)
+nav_order: 6
 
-[comment]: <> (profiles:)
+profiles:
 
-[comment]: <> (  # if you want to include more than one profile, just replicate the following block)
+  # if you want to include more than one profile, just replicate the following block
 
-[comment]: <> (  # and create one content file for each profile inside _pages/)
+  # and create one content file for each profile inside _pages/
 
-[comment]: <> (  - align: right)
+  - align: right
 
-[comment]: <> (    image: prof_pic.jpg)
+    content: about_einstein.md
 
-[comment]: <> (    content: about_einstein.md)
-
-[comment]: <> (    image_circular: false # crops the image to make it circular)
-
-[comment]: <> (    more_info: >)
-
-[comment]: <> (      <p>555 your office number</p>)
-
-[comment]: <> (      <p>123 your address street</p>)
-
-[comment]: <> (      <p>Your City, State 12345</p>)
 
 [comment]: <> (  - align: left)
 
@@ -50,4 +39,4 @@
 
 [comment]: <> (      <p>Your City, State 12345</p>)
 
-[comment]: <> (---)
+---
