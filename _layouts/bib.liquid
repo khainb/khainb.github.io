@@ -10,7 +10,7 @@
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge"
+            class="badge rounded w-100"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -21,13 +21,13 @@
               <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
-          {%- if entry.award -%}
+          {% if entry.award %}
           <span
-            class="award badge"
+            class="award badge rounded w-100"
           >
-          {{- entry.award -}}
+          {{ entry.award }}
           </span>
-          {%- endif -%}
+          {% endif %}
 
         {% else %}
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
@@ -189,7 +189,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-
+    {% if entry.honor %}
+          <span class="honor">
+            {{entry.honor}}
+          </span>
+          {% endif %}
     <!-- Links/Buttons -->
     <div class="links">
      <!--
