@@ -59,7 +59,7 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-2-papers-distributional-sliced-wasserstein-and-applications-to-generative-modeling-spotlight-presentation-and-dimproving-relational-regularized-autoencoders-with-spherical-sliced-fused-gromov-wasserstein-are-accepted-at-iclr-2021",
+    },{id: "news-2-papers-distributional-sliced-wasserstein-and-applications-to-generative-modeling-spotlight-presentation-and-improving-relational-regularized-autoencoders-with-spherical-sliced-fused-gromov-wasserstein-are-accepted-at-iclr-2021",
           title: '2 papers Distributional Sliced-Wasserstein and Applications to Generative Modeling - Spotlight Presentation and...',
           description: "",
           section: "News",},{id: "news-2-papers-improving-mini-batch-optimal-transport-via-partial-transportation-and-on-transportation-of-mini-batches-a-hierarchical-approach-are-accepted-at-icml-2022",
