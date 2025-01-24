@@ -12,6 +12,10 @@
   url: https://cvpr.thecvf.com/
   color: "#91917c"
 
+"AISTATS":
+  url: https://aistats.org/
+  color: "#6d6875"
+
 "NeurIPS":
   url: https://neurips.cc/
   color: "#0048BA"
