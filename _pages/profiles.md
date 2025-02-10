@@ -1,42 +1,58 @@
+
+---
+layout: page
+permalink: /mentoring/
+title: Mentoring
+description: 
+nav: true
+nav_order: 6
 ---
 
-layout: profiles
+[Hai Nguyen](https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en): DS&AI student at HUST, VinAI Research Resident.
 
-permalink: /people/
+[comment]: <> (For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.)
 
-title: Mentoring
+[comment]: <> (Organize your courses by years, topics, or universities, however you like!)
 
-description: 
+[comment]: <> (---)
 
-nav: true
+[comment]: <> (layout: profiles)
 
-nav_order: 6
+[comment]: <> (permalink: /people/)
 
-profiles:
+[comment]: <> (title: Mentoring)
 
-  # if you want to include more than one profile, just replicate the following block
+[comment]: <> (description: )
 
-  # and create one content file for each profile inside _pages/
+[comment]: <> (nav: true)
 
-  - align: right
+[comment]: <> (nav_order: 6)
 
-    content: about_einstein.md
+[comment]: <> (profiles:)
 
+[comment]: <> (  # if you want to include more than one profile, just replicate the following block)
 
-[comment]: <> (  - align: left)
+[comment]: <> (  # and create one content file for each profile inside _pages/)
 
-[comment]: <> (    image: prof_pic.jpg)
+[comment]: <> (  - align: right)
 
 [comment]: <> (    content: about_einstein.md)
 
-[comment]: <> (    image_circular: false # crops the image to make it circular)
 
-[comment]: <> (    more_info: >)
+[comment]: <> ([comment]: <> &#40;  - align: left&#41;)
 
-[comment]: <> (      <p>555 your office number</p>)
+[comment]: <> ([comment]: <> &#40;    image: prof_pic.jpg&#41;)
 
-[comment]: <> (      <p>123 your address street</p>)
+[comment]: <> ([comment]: <> &#40;    content: about_einstein.md&#41;)
 
-[comment]: <> (      <p>Your City, State 12345</p>)
+[comment]: <> ([comment]: <> &#40;    image_circular: false # crops the image to make it circular&#41;)
 
----
+[comment]: <> ([comment]: <> &#40;    more_info: >&#41;)
+
+[comment]: <> ([comment]: <> &#40;      <p>555 your office number</p>&#41;)
+
+[comment]: <> ([comment]: <> &#40;      <p>123 your address street</p>&#41;)
+
+[comment]: <> ([comment]: <> &#40;      <p>Your City, State 12345</p>&#41;)
+
+[comment]: <> (---)
