@@ -17,14 +17,23 @@ google_scholar_id={4fKUyHm3Qg0C},
   title={Lightspeed Geometric Dataset Distance via Sliced Optimal Transport},
   author={Nguyen*, Khai and Nguyen*, Hai and Pham, Tuan and Ho, Nhat},
   abbr = {Preprint},
-  pdf={https://arxiv.org/pdf/2501.18901.p},
+  pdf={https://arxiv.org/pdf/2501.18901.pdf},
   journal={Under Review},
   selected = {true},
   abstract = {We introduce sliced optimal transport dataset distance (s-OTDD), a model-agnostic, embedding-agnostic approach for dataset comparison that requires no training, is robust to variations in the number of classes, and can handle disjoint label sets. The core innovation is Moment Transform Projection (MTP), which maps a label, represented as a distribution over features, to a real number. Using MTP, we derive a data point projection that transforms datasets into one-dimensional distributions. The s-OTDD is defined as the expected Wasserstein distance between the projected distributions, with respect to random projection parameters. Leveraging the closed form solution of one-dimensional optimal transport, s-OTDD achieves (near-)linear computational complexity in the number of data points and feature dimensions and is independent of the number of classes. With its geometrically meaningful projection, s-OTDD strongly correlates with the optimal transport dataset distance while being more efficient than existing dataset discrepancy measures. Moreover, it correlates well with the performance gap in transfer learning and classification accuracy in data augmentation.},
   google_scholar_id={B3FOqHPlNUQC},
   year={2025}
 }
-
+@article{luong2025unbiased,
+  title={Unbiased Sliced Wasserstein Kernels for High-Quality Audio Captioning},
+  abbr = {Preprint},
+  author={Luong, Manh and Nguyen, Khai and Phung, Dinh and Haffari, Gholamreza and Qu, Lizhen},
+  journal={Under Review},
+  abstract = {Teacher-forcing training for audio captioning usually leads to exposure bias due to training and inference mismatch. Prior works propose the contrastive method to deal with caption degeneration. However, the contrastive method ignores the temporal information when measuring similarity across acoustic and linguistic modalities, leading to inferior performance. In this work, we develop the temporal-similarity score by introducing the unbiased sliced Wasserstein RBF (USW-RBF) kernel equipped with rotary positional embedding to account for temporal information across modalities. In contrast to the conventional sliced Wasserstein RBF kernel, we can form an unbiased estimation of USW-RBF kernel via Monte Carlo estimation. Therefore, it is well-suited to stochastic gradient optimization algorithms, and its approximation error decreases at a parametric rate  with  Monte Carlo samples. Additionally, we introduce an audio captioning framework based on the unbiased sliced Wasserstein kernel, incorporating stochastic decoding methods to mitigate caption degeneration during the generation process. We conduct extensive quantitative and qualitative experiments on two datasets, AudioCaps and Clotho, to illustrate the capability of generating high-quality audio captions. Experimental results show that our framework is able to increase caption length, lexical diversity, and text-to-audio self-retrieval accuracy},
+  pdf = {https://arxiv.org/pdf/2502.05435.pdf},
+  google_scholar_id={sSrBHYA8nusC},
+  year={2025}
+}
 
 @article{bariletto2024borrowing,
 abbr = {Preprint},
