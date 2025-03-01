@@ -62,6 +62,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - BNP14 Travel Award
+        - UT Austin Recruitment Fellowship
     - year: 2024
       items:
         - Top Reviewer Award at NeurIPS
@@ -75,7 +79,7 @@
         - ICML 2022 Travel Grant
     - year: 2021
       items:
-        - UT Austin Graduate Fellowship
+        - UT Austin Recruitment Fellowship
 
 - title: Professional Services
   type: list
