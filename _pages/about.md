@@ -42,6 +42,7 @@ I’m always open to collaborations, discussions, and exploring new opportunitie
 
 ***2. Efficiency, Scalability, Interpretability, and Trustworthiness of AI.*** My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.
 
+
 [comment]: <> (<details>)
 
 [comment]: <> (<summary> <b> Research Summary</b></summary>)
