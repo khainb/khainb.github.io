@@ -40,9 +40,9 @@ I’m always open to collaborations, discussions, and exploring new opportunitie
 
 ***1. Computational Optimal Transport.*** My research makes [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics))  scalable in statistical inference (low time complexity, low space complexity, low sample complexity) via the one-dimensional projection approach which is known as sliced optimal transport (sliced Wasserstein distance). My work focuses on three key aspects of sliced Wasserstein: numerical approximation, projecting operator, and slicing distribution.
 
-***2. Efficiency, Scalability, Interpretability, and Trustworthiness of AI.*** My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.
+***2. Efficiency, Scalability, Interpretability, and Trustworthiness of Machine Learning.*** My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.
 
-***3. AI for Biological Sciences.*** My research  quantifies interactions between cell types which drive various physiological and pathological processes. 
+***3. Machine Learning for Biological Sciences.*** My research  quantifies interactions between cell types which drive various physiological and pathological processes. 
 
 [comment]: <> (<details>)
 
