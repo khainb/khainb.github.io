@@ -6,6 +6,10 @@
   - firstname: [ "Yang" ]
     url: https://nystat.github.io/yni/
 
+"pham":
+  - firstname: [ "Tung" ]
+      url: https://scholar.google.com.au/citations?user=KcUuEKsAAAAJ&hl=en
+
 "nguyen":
   - firstname: ["Dang"]
     url: https://hsgser.github.io/
