@@ -59,18 +59,19 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Preprints</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include selected_preprints.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Preprints</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
-      {% include selected_preprints.liquid %}
+      {% include selected_papers.liquid %}
     {% endif %}
+
 
     <!-- Social -->
     {% if page.social %}

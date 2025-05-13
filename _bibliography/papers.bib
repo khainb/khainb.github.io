@@ -1,5 +1,19 @@
 ---
 ---
+
+@article{nguyen2025s,
+  abbr = {Preprint},
+  title={Streaming Sliced Optimal Transport},
+  author={Nguyen, Khai},
+  journal={Under Review},
+  pdf={https://arxiv.org/pdf/2505.06835},
+  selected = {true},
+  google_scholar_id={q3oQSFYPqjQC},
+  code = {https://github.com/khainb/StreamSW},
+  abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
+  year={2025}
+}
+
 @article{nguyen2025bayesian,
   abbr = {Preprint},
   title={Bayesian Density-Density Regression with Application to Cell-Cell Communications},
@@ -47,7 +61,16 @@ code = {https://github.com/khainb/sbnpm-sot},
   google_scholar_id={sSrBHYA8nusC},
   year={2025}
 }
-
+@article{nguyen2025improving,
+  title={Improving Routing in Sparse Mixture of Experts with Graph of Tokens},
+  author={Nguyen, Tam and Tran, Ngoc N and Nguyen, Khai and Baraniuk, Richard G},
+  abbr = {Preprint},
+  journal={Under Review},
+  google_scholar_id={kRWSkSYxWN8C},
+  pdf={https://arxiv.org/pdf/2505.00792.pdf},
+  abstract = {Sparse Mixture of Experts (SMoE) has emerged as a key to achieving unprecedented scalability in deep learning. By activating only a small subset of parameters per sample, SMoE achieves an exponential increase in parameter counts while maintaining a constant computational overhead. However, SMoE models are susceptible to routing fluctuations--changes in the routing of a given input to its target expert--at the late stage of model training, leading to model non-robustness. In this work, we unveil the limitation of SMoE through the perspective of the probabilistic graphical model (PGM). Through this PGM framework, we highlight the independence in the expert-selection of tokens, which exposes the model to routing fluctuation and non-robustness. Alleviating this independence, we propose the novel Similarity-Aware (S)MoE, which considers interactions between tokens during expert selection. We then derive a new PGM underlying an (S)MoE-Attention block, going beyond just a single (S)MoE layer. Leveraging the token similarities captured by the attention matrix, we propose the innovative Attention-Aware (S)MoE, which employs the attention matrix to guide the routing of tokens to appropriate experts in (S)MoE. We theoretically prove that Similarity/Attention-Aware routing help reduce the entropy of expert selection, resulting in more stable token routing mechanisms. We empirically validate our models on various tasks and domains, showing significant improvements in reducing routing fluctuations, enhancing accuracy, and increasing model robustness over the baseline MoE-Transformer with token routing via softmax gating.  },
+  year={2025}
+}
 @article{bariletto2024borrowing,
 abbr = {Preprint},
   title={Borrowing Strength in Distributionally Robust Optimization via Hierarchical Dirichlet Processes},
