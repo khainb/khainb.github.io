@@ -30,7 +30,7 @@ I’m always open to collaborations, discussions, and exploring new opportunitie
 
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
-*(This video is created by my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
+*(This video is created by using my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
 
 
 [comment]: <> (and I am a visiting student at [Statistical Information Lab]&#40;https://odin.mdacc.tmc.edu/~wwang7/people.html&#41; at [The University of Texas MD Anderson Cancer Center]&#40;https://www.mdanderson.org/&#41;. )
