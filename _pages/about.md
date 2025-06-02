@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Khai, a fourth-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
+Hi! I’m Khai, a final-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
 [Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) (acquired by Qualcomm AI Research) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
