@@ -56,6 +56,15 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Monograph</a>
+      </h2>
+      {% include selected_monograph.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
