@@ -26,9 +26,13 @@ Hi! I’m Khai, a final-year Ph.D. candidate at [Department of Statistics and Da
 [Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) (acquired by Qualcomm AI Research) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
-I’m always open to collaborations, discussions, and exploring new opportunities. Don’t hesitate to reach out if you’re interested in my research or want to discuss potential research projects.
+[comment]: <> (I’m always open to collaborations, discussions, and exploring new opportunities. Don’t hesitate to reach out if you’re interested in my research or want to discuss potential research projects.)
 
+<span style="color:red; font-weight:bold">
+I'm on the job market! Please feel free to contact me if interested in my research. 
+</span>
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
+
 
 *(This video is created by using my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
 
@@ -36,9 +40,9 @@ I’m always open to collaborations, discussions, and exploring new opportunitie
 [comment]: <> (and I am a visiting student at [Statistical Information Lab]&#40;https://odin.mdacc.tmc.edu/~wwang7/people.html&#41; at [The University of Texas MD Anderson Cancer Center]&#40;https://www.mdanderson.org/&#41;. )
 
 
-**Research:** My research focuses on both fundamental problems and applied problems in probabilistic machine learning, deep learning, and statistics.
+**Research:** My research focuses on both fundamental problems and applied problems in statistics, statistical machine learning, and deep learning.
 
-***1. Computational Optimal Transport.*** My research makes [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable for statistical inference (with low time complexity, space complexity, and sample complexity) through a random projection approach known as sliced optimal transport (SOT). My work focuses on four key sub-domains of SOT: Monte Carlo methods, the generalized Radon transform, the weighted Radon transform, and nonparametric estimation. In addition, I contribute to variational problems in SOT, such as the sliced Wasserstein barycenter and sliced Wasserstein kernels. Finally, I broaden the applications of SOT across machine learning, statistics, and computer graphics/vision. I  wrote a monograph on [SOT](https://arxiv.org/pdf/2508.12519), providing a synthesized introduction to the topic.
+***1. Computational Optimal Transport.*** My research makes [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable for statistical inference (with low time complexity, space complexity, and sample complexity) through a random projection approach known as sliced optimal transport (SOT). My work focuses on four key sub-domains of SOT: Monte Carlo methods, the generalized Radon transform, the weighted Radon transform, and nonparametric estimation. In addition, I contribute to variational problems in SOT, such as the sliced Wasserstein barycenter and sliced Wasserstein kernels. Finally, I broaden the applications of SOT across machine learning, statistics, and computer graphics and vision. I  wrote a monograph on [SOT](https://arxiv.org/pdf/2508.12519), providing a synthesized introduction to the topic.
 
 ***2. Efficiency, Scalability, Interpretability, and Trustworthiness of Machine Learning.*** My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.
 
