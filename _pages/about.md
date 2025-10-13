@@ -47,7 +47,7 @@ I'm on the job market! Please feel free to contact me if interested in my resear
 
 ***2. Statistical Inference and Decision Making.*** I formulate new inference and decision problems, such as Bayesian multivariate density-density regression and random partition summarization with a decision-theoretic approach. I also leverage OT and SOT to improve the scalability and accuracy of statistical estimation in machine learning applications, including generative modeling, representation learning, and domain adaptation.
 
-***2. Geometric Data Processing.*** Geometric data, such as 3D point clouds and meshes, can be naturally represented as distributions over geometric spaces.  I develop scalable statistical models for deforming, reconstructing, and matching 3D shapes, enabling applications in medical imaging (e.g., cortical surface reconstruction) as well as computer graphics and vision.
+***3. Geometric Data Processing.*** Geometric data, such as 3D point clouds and meshes, can be naturally represented as distributions over geometric spaces.  I develop scalable statistical models for deforming, reconstructing, and matching 3D shapes, enabling applications in medical imaging (e.g., cortical surface reconstruction) as well as computer graphics and vision.
 
 [comment]: <> (My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.)
 
