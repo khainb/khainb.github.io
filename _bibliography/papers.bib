@@ -1,18 +1,34 @@
 ---
 ---
+
+
+
 @article{nguyen2025introduction,
   title={An Introduction to Sliced Optimal Transport},
-  abbr = {Preprint},
+  abbr = {FnT},
   author={Nguyen, Khai},
   selected = {false},
   book = {true},
   google_scholar_id={PELIpwtuRlgC},
   pdf={https://arxiv.org/pdf/2508.12519},
-  journal={Preliminary Accepted and Under Review at Foundations and Trends® in Computer Graphics and Vision},
+  journal={Accepted and Under Final Production at Foundations and Trends® in Computer Graphics and Vision},
   preview = {SOT.jpg},
   abstract = {Sliced Optimal Transport (SOT) is a rapidly developing branch of optimal transport (OT) that exploits the tractability of one-dimensional OT problems. By combining tools from OT, integral geometry, and computational statistics, SOT enables fast and scalable computation of distances, barycenters, and kernels for probability measures, while retaining rich geometric structure. This paper provides a comprehensive review of SOT, covering its mathematical foundations, methodological advances, computational methods, and applications. We discuss key concepts of OT and one-dimensional OT, the role of tools from integral geometry such as Radon transform in projecting measures, and statistical techniques for estimating sliced distances. The paper further explores recent methodological advances, including non-linear projections, improved Monte Carlo approximations, statistical estimation techniques for one-dimensional optimal transport, weighted slicing techniques, and transportation plan estimation methods. Variational problems, such as minimum sliced Wasserstein estimation, barycenters, gradient flows, kernel constructions, and embeddings are examined alongside extensions to unbalanced, partial, multi-marginal, and Gromov-Wasserstein settings. Applications span machine learning, statistics, computer graphics and computer visions, highlighting SOT's versatility as a practical computational tool. This work will be of interest to researchers and practitioners in machine learning, data sciences, and computational disciplines seeking efficient alternatives to classical OT.},
   year={2025}
 }
+@article{nguyen2025fast,
+  abbr = {Preprint},
+  title={Fast Estimation of Wasserstein Distances via Regression on Sliced Wasserstein Distances},
+  author={Nguyen*, Khai and Nguyen*, Hai and Ho, Nhat},
+  journal={Under Review},
+  pdf={https://arxiv.org/pdf/2509.20508},
+  selected = {false},
+  google_scholar_id={JoZmwDi-zQgC},
+  preview = {RegressW.jpg},
+  abstract={We address the problem of efficiently computing Wasserstein distances for multiple pairs of distributions drawn from a meta-distribution. To this end, we propose a fast estimation method based on regressing Wasserstein distance on sliced Wasserstein (SW) distances. Specifically, we leverage both standard SW distances, which provide lower bounds, and lifted SW distances, which provide upper bounds, as predictors of the true Wasserstein distance. To ensure parsimony, we introduce two linear models: an unconstrained model with a closed-form least-squares solution, and a constrained model that uses only half as many parameters. We show that accurate models can be learned from a small number of distribution pairs. Once estimated, the model can predict the Wasserstein distance for any pair of distributions via a linear combination of SW distances, making it highly efficient. Empirically, we validate our approach on diverse tasks, including Gaussian mixtures, point-cloud classification, and Wasserstein-space visualizations for 3D point clouds. Across various datasets such as MNIST point clouds, ShapeNetV2, MERFISH Cell Niches, and scRNA-seq, our method consistently provides a better approximation of Wasserstein distance than the state-of-the-art Wasserstein embedding model, Wasserstein Wormhole, particularly in low-data regimes. Finally, we demonstrate that our estimator can also accelerate Wormhole training, yielding \textit{RG-Wormhole}},
+  year={2025}
+}
+
 @article{nguyen2025s,
   abbr = {Preprint},
   title={Streaming Sliced Optimal Transport},

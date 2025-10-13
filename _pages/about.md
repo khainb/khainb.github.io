@@ -40,13 +40,18 @@ I'm on the job market! Please feel free to contact me if interested in my resear
 [comment]: <> (and I am a visiting student at [Statistical Information Lab]&#40;https://odin.mdacc.tmc.edu/~wwang7/people.html&#41; at [The University of Texas MD Anderson Cancer Center]&#40;https://www.mdanderson.org/&#41;. )
 
 
+
 **Research:** My research focuses on both fundamental problems and applied problems in statistics, statistical machine learning, and deep learning.
 
 ***1. Computational Optimal Transport.*** My research makes [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable for statistical inference (with low time complexity, space complexity, and sample complexity) through a random projection approach known as sliced optimal transport (SOT). My work focuses on four key sub-domains of SOT: Monte Carlo methods, the generalized Radon transform, the weighted Radon transform, and nonparametric estimation. In addition, I contribute to variational problems in SOT, such as the sliced Wasserstein barycenter and sliced Wasserstein kernels. Finally, I broaden the applications of SOT across machine learning, statistics, and computer graphics and vision. I  wrote a monograph on [SOT](https://arxiv.org/pdf/2508.12519), providing a synthesized introduction to the topic.
 
-***2. Efficiency, Scalability, Interpretability, and Trustworthiness of Machine Learning.*** My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.
+***2. Statistical Inference and Decision Making.*** I formulate new inference and decision problems, such as Bayesian multivariate density-density regression and random partition summarization with a decision-theoretic approach. I also leverage OT and SOT to improve the scalability and accuracy of statistical estimation in machine learning applications, including generative modeling, representation learning, and domain adaptation.
 
-***3. Machine Learning for Biological Sciences.*** My research  quantifies interactions between cell types which drive various physiological and pathological processes. 
+***2. Geometric Data Processing.*** Geometric data, such as 3D point clouds and meshes, can be naturally represented as distributions over geometric spaces.  I develop scalable statistical models for deforming, reconstructing, and matching 3D shapes, enabling applications in medical imaging (e.g., cortical surface reconstruction) as well as computer graphics and vision.
+
+[comment]: <> (My research enhances the performance of 3D vision models, speeds up the training of generative models, adapts prediction models to new unseen domains, explains multimodal transferable representation, and ensures fairness and robustness in learning processes.)
+
+[comment]: <> (***3. Machine Learning for Biological Sciences.*** My research  quantifies interactions between cell types which drive various physiological and pathological processes. )
 
 [comment]: <> (<details>)
 
