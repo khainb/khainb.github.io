@@ -7,6 +7,8 @@ github_repos:
   - VinAIResearch/DSW
   - khainb/EBSW
   - khainb/Mini-batch-OT
+  - khainb/sbnpm-sot
+  - khainb/StreamSW
   - khainb/H2SW
   - khainb/Quasi-SW
   - khainb/CV-SW
