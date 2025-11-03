@@ -1,8 +1,8 @@
 ---
 layout: post
-title: NeurIPS
-date: 2025-09-18 15:59:00-0400
+title: FnTCGV
+date: 2025-11-03 15:59:00-0400
 inline: true
 ---
 
-1 paper **Unbiased Sliced Wasserstein Kernels for High-Quality Audio Captioning** is accepted at **NeurIPS 2025**.
+My monograph paper **An Introduction to Sliced Optimal Transport** is accepted at [**Foundations and Trends® in Computer Graphics and Vision**](https://www.nowpublishers.com/article/Details/CGV-119).
