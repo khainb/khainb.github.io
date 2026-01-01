@@ -15,7 +15,7 @@ google_scholar_id={4fKUyHm3Qg0C},
 preview = {Posteriorsummarization.jpg},
 code = {https://github.com/khainb/sbnpm-sot},
   abstract={Existing methods to summarize posterior inference for mixture models focus on identifying a point estimate of the implied random partition for clustering, with density estimation as a secondary goal (Wade and Ghahramani, 2018; Dahl et al., 2022). We propose a novel approach for summarizing posterior inference in nonparametric Bayesian mixture models, prioritizing density estimation of the mixing measure (or mixture) as an inference target. One of the key features is the model-agnostic nature of the approach, which remains valid under arbitrarily complex dependence structures in the underlying sampling model. Using a decision-theoretic framework, our method identifies a point estimate by minimizing posterior expected loss. A loss function is defined as a discrepancy between mixing measures. Estimating the mixing measure implies inference on the mixture density. Exploiting the discrete nature of the mixing measure, we use a version of sliced Wasserstein distance. We introduce two specific variants for Gaussian mixtures. The first, mixed sliced Wasserstein, applies generalized geodesic projections on the product of the Euclidean space and the manifold of symmetric positive definite matrices. The second, sliced mixture Wasserstein, leverages the linearity of Gaussian mixture measures for efficient projection.},
-  year={2025}
+  year={2026}
 }
 @article{nguyen2025introduction,
   title={An Introduction to Sliced Optimal Transport},
@@ -40,7 +40,7 @@ code = {https://github.com/khainb/sbnpm-sot},
   google_scholar_id={JoZmwDi-zQgC},
   preview = {RegressW.jpg},
   abstract={We address the problem of efficiently computing Wasserstein distances for multiple pairs of distributions drawn from a meta-distribution. To this end, we propose a fast estimation method based on regressing Wasserstein distance on sliced Wasserstein (SW) distances. Specifically, we leverage both standard SW distances, which provide lower bounds, and lifted SW distances, which provide upper bounds, as predictors of the true Wasserstein distance. To ensure parsimony, we introduce two linear models: an unconstrained model with a closed-form least-squares solution, and a constrained model that uses only half as many parameters. We show that accurate models can be learned from a small number of distribution pairs. Once estimated, the model can predict the Wasserstein distance for any pair of distributions via a linear combination of SW distances, making it highly efficient. Empirically, we validate our approach on diverse tasks, including Gaussian mixtures, point-cloud classification, and Wasserstein-space visualizations for 3D point clouds. Across various datasets such as MNIST point clouds, ShapeNetV2, MERFISH Cell Niches, and scRNA-seq, our method consistently provides a better approximation of Wasserstein distance than the state-of-the-art Wasserstein embedding model, Wasserstein Wormhole, particularly in low-data regimes. Finally, we demonstrate that our estimator can also accelerate Wormhole training, yielding \textit{RG-Wormhole}},
-  year={2025}
+  year={2026}
 }
 
 @article{nguyen2025s,
@@ -54,7 +54,7 @@ code = {https://github.com/khainb/sbnpm-sot},
   preview = {StreamSW.jpg},
   code = {https://github.com/khainb/StreamSW},
   abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
-  year={2025}
+  year={2026}
 }
 
 @article{nguyen2025bayesian,
@@ -67,7 +67,7 @@ code = {https://github.com/khainb/sbnpm-sot},
   preview = {DDR.jpg},
   google_scholar_id={q3oQSFYPqjQC},
   abstract={We introduce a scalable framework for regressing multivariate distributions onto multivariate distributions, motivated by the application of inferring cell-cell communication from population-scale single-cell data. The observed data consist of pairs of multivariate distributions for ligands from one cell type and corresponding receptors from another. For each ordered pair e=(l,r) of cell types (l≠r) and each sample i=1,…,n, we observe a pair of distributions (Fei,Gei) of gene expressions for ligands and receptors of cell types l and r, respectively. The aim is to set up a regression of receptor distributions Gei given ligand distributions Fei. A key challenge is that these distributions reside in distinct spaces of differing dimensions. We formulate the regression of multivariate densities on multivariate densities using a generalized Bayes framework with the sliced Wasserstein distance between fitted and observed distributions. Finally, we use inference under such regressions to define a directed graph for cell-cell communications.},
-  year={2025}
+  year={2026}
 }
 
 @article{nguyen2025improving,
@@ -79,7 +79,7 @@ code = {https://github.com/khainb/sbnpm-sot},
   pdf={https://arxiv.org/pdf/2505.00792.pdf},
   preview = {improvingmoe.jpg},
   abstract = {Sparse Mixture of Experts (SMoE) has emerged as a key to achieving unprecedented scalability in deep learning. By activating only a small subset of parameters per sample, SMoE achieves an exponential increase in parameter counts while maintaining a constant computational overhead. However, SMoE models are susceptible to routing fluctuations--changes in the routing of a given input to its target expert--at the late stage of model training, leading to model non-robustness. In this work, we unveil the limitation of SMoE through the perspective of the probabilistic graphical model (PGM). Through this PGM framework, we highlight the independence in the expert-selection of tokens, which exposes the model to routing fluctuation and non-robustness. Alleviating this independence, we propose the novel Similarity-Aware (S)MoE, which considers interactions between tokens during expert selection. We then derive a new PGM underlying an (S)MoE-Attention block, going beyond just a single (S)MoE layer. Leveraging the token similarities captured by the attention matrix, we propose the innovative Attention-Aware (S)MoE, which employs the attention matrix to guide the routing of tokens to appropriate experts in (S)MoE. We theoretically prove that Similarity/Attention-Aware routing help reduce the entropy of expert selection, resulting in more stable token routing mechanisms. We empirically validate our models on various tasks and domains, showing significant improvements in reducing routing fluctuations, enhancing accuracy, and increasing model robustness over the baseline MoE-Transformer with token routing via softmax gating.  },
-  year={2025}
+  year={2026}
 }
 @article{bariletto2024borrowing,
 abbr = {Preprint},
@@ -101,7 +101,7 @@ process (DP) theory. Numerical experiments validate the framework’s efficacy i
 and stabilizing both prediction and parameter estimation accuracy, showcasing its potential for
 application in complex data environments.},
 published={false},
-  year={2025}
+  year={2026}
 }
 @article{luong2025unbiased,
   title={Unbiased Sliced Wasserstein Kernels for High-Quality Audio Captioning},
