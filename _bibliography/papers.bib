@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{nguyen2025s,
+  abbr = {Preprint},
+  title={Streaming Sliced Optimal Transport},
+  author={Nguyen, Khai},
+  journal={Under Review},
+  pdf={https://arxiv.org/pdf/2505.06835},
+  selected = {true},
+  google_scholar_id={V3AGJWp-ZtQC},
+  preview = {StreamSW.jpg},
+  code = {https://github.com/khainb/StreamSW},
+  abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
+  year={2026}
+}
+
+@article{nguyen2025bayesian,
+  abbr = {Preprint},
+  title={Bayesian Multivariate Density-Density Regression},
+  author={Nguyen, Khai and Ni, Yang and Mueller, Peter},
+  journal={Under Review},
+  pdf={https://arxiv.org/pdf/2504.12617},
+  selected = {true},
+  preview = {DDR.jpg},
+  google_scholar_id={q3oQSFYPqjQC},
+  abstract={We introduce a scalable framework for regressing multivariate distributions onto multivariate distributions, motivated by the application of inferring cell-cell communication from population-scale single-cell data. The observed data consist of pairs of multivariate distributions for ligands from one cell type and corresponding receptors from another. For each ordered pair e=(l,r) of cell types (l≠r) and each sample i=1,…,n, we observe a pair of distributions (Fei,Gei) of gene expressions for ligands and receptors of cell types l and r, respectively. The aim is to set up a regression of receptor distributions Gei given ligand distributions Fei. A key challenge is that these distributions reside in distinct spaces of differing dimensions. We formulate the regression of multivariate densities on multivariate densities using a generalized Bayes framework with the sliced Wasserstein distance between fitted and observed distributions. Finally, we use inference under such regressions to define a directed graph for cell-cell communications.},
+  year={2026}
+}
 
 @article{nguyen2025mixture,
 abbr = {JCGS},
@@ -43,32 +69,8 @@ code = {https://github.com/khainb/sbnpm-sot},
   year={2026}
 }
 
-@article{nguyen2025s,
-  abbr = {Preprint},
-  title={Streaming Sliced Optimal Transport},
-  author={Nguyen, Khai},
-  journal={Under Review},
-  pdf={https://arxiv.org/pdf/2505.06835},
-  selected = {true},
-  google_scholar_id={V3AGJWp-ZtQC},
-  preview = {StreamSW.jpg},
-  code = {https://github.com/khainb/StreamSW},
-  abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
-  year={2026}
-}
 
-@article{nguyen2025bayesian,
-  abbr = {Preprint},
-  title={Bayesian Multivariate Density-Density Regression},
-  author={Nguyen, Khai and Ni, Yang and Mueller, Peter},
-  journal={Under Review},
-  pdf={https://arxiv.org/pdf/2504.12617},
-  selected = {true},
-  preview = {DDR.jpg},
-  google_scholar_id={q3oQSFYPqjQC},
-  abstract={We introduce a scalable framework for regressing multivariate distributions onto multivariate distributions, motivated by the application of inferring cell-cell communication from population-scale single-cell data. The observed data consist of pairs of multivariate distributions for ligands from one cell type and corresponding receptors from another. For each ordered pair e=(l,r) of cell types (l≠r) and each sample i=1,…,n, we observe a pair of distributions (Fei,Gei) of gene expressions for ligands and receptors of cell types l and r, respectively. The aim is to set up a regression of receptor distributions Gei given ligand distributions Fei. A key challenge is that these distributions reside in distinct spaces of differing dimensions. We formulate the regression of multivariate densities on multivariate densities using a generalized Bayes framework with the sliced Wasserstein distance between fitted and observed distributions. Finally, we use inference under such regressions to define a directed graph for cell-cell communications.},
-  year={2026}
-}
+
 
 @article{nguyen2025improving,
   title={Improving Routing in Sparse Mixture of Experts with Graph of Tokens},
