@@ -7,7 +7,7 @@
   journal={Under Review},
   pdf={https://arxiv.org/pdf/2601.02640},
   selected = {true},
-  preview = {MDDR.png},
+  preview = {MDDR.jpg},
   abstract={We propose the first approach for multiple multivariate density-density regression (MDDR), making it possible to consider the regression of a multivariate density-valued response on multiple multivariate density-valued predictors. The core idea is to define a fitted distribution using a sliced Wasserstein barycenter (SWB) of push-forwards of the predictors and to quantify deviations from the observed response using the sliced Wasserstein (SW) distance. Regression functions, which map predictors' supports to the response support, and barycenter weights are inferred within a generalized Bayes framework, enabling principled uncertainty quantification without requiring a fully specified likelihood. The inference process can be seen as an instance of an inverse SWB problem. We establish theoretical guarantees, including the stability of the SWB under perturbations of marginals and barycenter weights, sample complexity of the generalized likelihood, and posterior consistency. For practical inference, we introduce a differentiable approximation of the SWB and a smooth reparameterization to handle the simplex constraint on barycenter weights, allowing efficient gradient-based MCMC sampling. We demonstrate MDDR in an application to inference for population-scale single-cell data. Posterior analysis under the MDDR model in this example includes inference on communication between multiple source/sender cell types and a target/receiver cell type. The proposed approach provides accurate fits, reliable predictions, and interpretable posterior estimates of barycenter weights, which can be used to construct sparse cell-cell communication networks.},
   year={2026}
 }
@@ -33,7 +33,7 @@
   journal={Under Review},
   pdf={https://arxiv.org/pdf/2504.12617},
   selected = {true},
-  preview = {DDR.png},
+  preview = {DDR.jpg},
   google_scholar_id={q3oQSFYPqjQC},
   abstract={We introduce a scalable framework for regressing multivariate distributions onto multivariate distributions, motivated by the application of inferring cell-cell communication from population-scale single-cell data. The observed data consist of pairs of multivariate distributions for ligands from one cell type and corresponding receptors from another. For each ordered pair e=(l,r) of cell types (l≠r) and each sample i=1,…,n, we observe a pair of distributions (Fei,Gei) of gene expressions for ligands and receptors of cell types l and r, respectively. The aim is to set up a regression of receptor distributions Gei given ligand distributions Fei. A key challenge is that these distributions reside in distinct spaces of differing dimensions. We formulate the regression of multivariate densities on multivariate densities using a generalized Bayes framework with the sliced Wasserstein distance between fitted and observed distributions. Finally, we use inference under such regressions to define a directed graph for cell-cell communications.},
   year={2026}
