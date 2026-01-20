@@ -66,6 +66,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - UT Austin Professional Development Award
     - year: 2025
       items:
         - Top Reviewer Award at NeurIPS
