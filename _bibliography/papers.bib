@@ -13,22 +13,6 @@
   year={2026}
 }
 
-@article{nguyen2025mixture,
-abbr = {JCGS},
-  title={Summarizing Nonparametric Bayesian Mixture Posterior -- Sliced Optimal Transport Metrics for Gaussian Mixtures},
-  author={Nguyen, Khai and Mueller, Peter},
-  selected = {true},
-published={true},
-honor={Contributed Talk at BNP14, Talk in session with discussion at BAYSM25},
-  pdf={https://arxiv.org/pdf/2411.14674.pdf},
-  journal={Accepted under minor revision at Journal of Computational and Graphical Statistics},
-google_scholar_id={4fKUyHm3Qg0C},
-preview = {Posteriorsummarization.jpg},
-code = {https://github.com/khainb/sbnpm-sot},
-  abstract={Existing methods to summarize posterior inference for mixture models focus on identifying a point estimate of the implied random partition for clustering, with density estimation as a secondary goal (Wade and Ghahramani, 2018; Dahl et al., 2022). We propose a novel approach for summarizing posterior inference in nonparametric Bayesian mixture models, prioritizing density estimation of the mixing measure (or mixture) as an inference target. One of the key features is the model-agnostic nature of the approach, which remains valid under arbitrarily complex dependence structures in the underlying sampling model. Using a decision-theoretic framework, our method identifies a point estimate by minimizing posterior expected loss. A loss function is defined as a discrepancy between mixing measures. Estimating the mixing measure implies inference on the mixture density. Exploiting the discrete nature of the mixing measure, we use a version of sliced Wasserstein distance. We introduce two specific variants for Gaussian mixtures. The first, mixed sliced Wasserstein, applies generalized geodesic projections on the product of the Euclidean space and the manifold of symmetric positive definite matrices. The second, sliced mixture Wasserstein, leverages the linearity of Gaussian mixture measures for efficient projection.},
-  year={2026}
-}
-
 @article{nguyen2025s,
   abbr = {Preprint},
   title={Streaming Sliced Optimal Transport},
@@ -56,9 +40,23 @@ code = {https://github.com/khainb/sbnpm-sot},
   year={2026}
 }
 
-
+@article{nguyen2025mixture,
+abbr = {JCGS},
+  title={Summarizing Bayesian Nonparametric Mixture Posterior and Sliced Optimal Transport Metrics for Gaussian Mixtures},
+  author={Nguyen, Khai and Mueller, Peter},
+  selected = {true},
+published={true},
+honor={Contributed Talk at BNP14, Talk in session with discussion at BAYSM25},
+  pdf={https://arxiv.org/pdf/2411.14674.pdf},
+  journal={Accepted under minor revision at Journal of Computational and Graphical Statistics},
+google_scholar_id={4fKUyHm3Qg0C},
+preview = {Posteriorsummarization.jpg},
+code = {https://github.com/khainb/sbnpm-sot},
+  abstract={Existing methods to summarize posterior inference for mixture models focus on identifying a point estimate of the implied random partition for clustering, with density estimation as a secondary goal (Wade and Ghahramani, 2018; Dahl et al., 2022). We propose a novel approach for summarizing posterior inference in nonparametric Bayesian mixture models, prioritizing density estimation of the mixing measure (or mixture) as an inference target. One of the key features is the model-agnostic nature of the approach, which remains valid under arbitrarily complex dependence structures in the underlying sampling model. Using a decision-theoretic framework, our method identifies a point estimate by minimizing posterior expected loss. A loss function is defined as a discrepancy between mixing measures. Estimating the mixing measure implies inference on the mixture density. Exploiting the discrete nature of the mixing measure, we use a version of sliced Wasserstein distance. We introduce two specific variants for Gaussian mixtures. The first, mixed sliced Wasserstein, applies generalized geodesic projections on the product of the Euclidean space and the manifold of symmetric positive definite matrices. The second, sliced mixture Wasserstein, leverages the linearity of Gaussian mixture measures for efficient projection.},
+  year={2026}
+}
 @article{nguyen2025introduction,
-  title={An Introduction to Sliced Optimal Transport: Foundations, Advances, Extensions, and Applications},
+  title={An Introduction to Sliced Optimal Transport},
   abbr = {FnTCGV},
   author={Nguyen, Khai},
   selected = {false},
@@ -86,18 +84,17 @@ code = {https://github.com/khainb/sbnpm-sot},
 
 
 
-%@article{nguyen2025improving,
-%  title={Improving Routing in Sparse Mixture of Experts with Graph of Tokens},
-%  author={Nguyen, Tam and Tran, Ngoc N and Nguyen, Khai and Baraniuk, Richard G},
-%  abbr = {Preprint},
-%  journal={Under Review},
-%  google_scholar_id={kRWSkSYxWN8C},
-%  pdf={https://arxiv.org/pdf/2505.00792.pdf},
-%  preview = {improvingmoe.jpg},
-%  abstract = {Sparse Mixture of Experts (SMoE) has emerged as a key to achieving unprecedented scalability in deep learning. By activating only a small subset of parameters per sample, SMoE achieves an exponential increase in parameter counts while maintaining a constant computational overhead. However, SMoE models are susceptible to routing fluctuations--changes in the routing of a given input to its target expert--at the late stage of model training, leading to model non-robustness. In this work, we unveil the limitation of SMoE through the perspective of the probabilistic graphical model (PGM). Through this PGM framework, we highlight the independence in the expert-selection of tokens, which exposes the model to routing fluctuation and non-robustness. Alleviating this independence, we propose the novel Similarity-Aware (S)MoE, which considers interactions between tokens during expert selection. We then derive a new PGM underlying an (S)MoE-Attention block, going beyond just a single (S)MoE layer. Leveraging the token similarities captured by the attention matrix, we propose the innovative Attention-Aware (S)MoE, which employs the attention matrix to guide the routing of tokens to appropriate experts in (S)MoE. We theoretically prove that Similarity/Attention-Aware routing help reduce the entropy of expert selection, resulting in more stable token routing mechanisms. We empirically validate our models on various tasks and domains, showing significant improvements in reducing routing fluctuations, enhancing accuracy, and increasing model robustness over the baseline MoE-Transformer with token routing via softmax gating.  },
-%  year={2026}
-%}
-
+@article{nguyen2025improving,
+  title={Improving Routing in Sparse Mixture of Experts with Graph of Tokens},
+  author={Nguyen, Tam and Tran, Ngoc N and Nguyen, Khai and Baraniuk, Richard G},
+  abbr = {Preprint},
+  journal={Under Review},
+  google_scholar_id={kRWSkSYxWN8C},
+  pdf={https://arxiv.org/pdf/2505.00792.pdf},
+  preview = {improvingmoe.jpg},
+  abstract = {Sparse Mixture of Experts (SMoE) has emerged as a key to achieving unprecedented scalability in deep learning. By activating only a small subset of parameters per sample, SMoE achieves an exponential increase in parameter counts while maintaining a constant computational overhead. However, SMoE models are susceptible to routing fluctuations--changes in the routing of a given input to its target expert--at the late stage of model training, leading to model non-robustness. In this work, we unveil the limitation of SMoE through the perspective of the probabilistic graphical model (PGM). Through this PGM framework, we highlight the independence in the expert-selection of tokens, which exposes the model to routing fluctuation and non-robustness. Alleviating this independence, we propose the novel Similarity-Aware (S)MoE, which considers interactions between tokens during expert selection. We then derive a new PGM underlying an (S)MoE-Attention block, going beyond just a single (S)MoE layer. Leveraging the token similarities captured by the attention matrix, we propose the innovative Attention-Aware (S)MoE, which employs the attention matrix to guide the routing of tokens to appropriate experts in (S)MoE. We theoretically prove that Similarity/Attention-Aware routing help reduce the entropy of expert selection, resulting in more stable token routing mechanisms. We empirically validate our models on various tasks and domains, showing significant improvements in reducing routing fluctuations, enhancing accuracy, and increasing model robustness over the baseline MoE-Transformer with token routing via softmax gating.  },
+  year={2026}
+}
 @article{bariletto2024borrowing,
 abbr = {Preprint},
   title={Data-Driven DRO and Economic Decision Theory: An Analytical Synthesis With Bayesian Nonparametric Advancements},
