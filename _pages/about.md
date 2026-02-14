@@ -28,11 +28,11 @@ Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http
 
 [comment]: <> (I’m always open to collaborations, discussions, and exploring new opportunities. Don’t hesitate to reach out if you’re interested in my research or want to discuss potential research projects.)
 
-[comment]: <> (<span style="color:red; font-weight:bold">)
+<span style="font-weight:bold">
 
-[comment]: <> (I'm on the academic job market &#40;postdoc or assistant professor&#41;! Please feel free to contact me if interested in my research! )
+I will be joining the <a href="https://artsci.tamu.edu/statistics/index.html">Department of Statistics</a> at <a href="https://www.tamu.edu/index.html">Texas A&M University</a> in Fall 2026.
 
-[comment]: <> (</span>)
+</span>
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
 
