@@ -32,7 +32,9 @@ Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http
 <a href="https://artsci.tamu.edu/statistics/index.html" style="color: #500000;">Department of Statistics</a> 
 at 
 <a href="https://www.tamu.edu/index.html" style="color: #500000;">Texas A&M University</a> 
-in Fall 2026.**
+as a tenure-track assistant professor in Fall 2026.**
+
+**Prospective students:** Please consider applying to <a href="https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html" style="color: #500000;">Statistics at Texas A&M</a>. Admission decision is made a graduate admissions committee.
 
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
