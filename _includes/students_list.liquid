@@ -13,6 +13,9 @@
         </div>
         <div class="role">
           {{ student.role }}{% if student.period %} · {{ student.period }}{% endif %}
+          {% if student.status %}
+            <span class="student-status">{{ student.status }}</span>
+          {% endif %}
         </div>
       </div>
     </li>

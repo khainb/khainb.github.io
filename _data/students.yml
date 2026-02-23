@@ -1,9 +1,11 @@
 # List of students (e.g. advisees, research assistants).
-# Add entries with: name, role, period, and optional url.
-# period can be a year range like "2022–present" or a single year.
+# Add entries with: name, role, period, optional status, and optional url.
+# period: year range like "2024–2026" or a single year.
+# status: current status, e.g. "Current", "Alumni", "Graduated 2024", "On leave"
 
 - name: Hai Nguyen
-  role: Undergraduate Student
+  role: Undergraduate Student at HUST
   period: "2024–2026"
+  status: Qualcomm AI Resident
   url: https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en
 
