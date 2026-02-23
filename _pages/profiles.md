@@ -5,7 +5,7 @@ permalink: /mentoring/
 title: Mentoring
 description: 
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 [Hai Nguyen](https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en): DS&AI student at HUST, VinAI Research Resident.
