@@ -875,6 +875,41 @@ footer.sticky-bottom {
   }
 }
 
+// Students list (same visual pattern as publications)
+.students {
+  margin-top: 2rem;
+
+  .student-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .student-item {
+    .name {
+      font-weight: bolder;
+
+      a {
+        border-bottom: 1px dashed var(--global-theme-color);
+
+        &:hover {
+          border-bottom-style: solid;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .role {
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+    }
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;

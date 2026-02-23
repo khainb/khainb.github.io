@@ -1,0 +1,22 @@
+{% if site.data.students %}
+<div class="students">
+  <ol class="student-list">
+    {% for student in site.data.students %}
+    <li>
+      <div class="student-item">
+        <div class="name">
+          {% if student.url %}
+            <a href="{{ student.url }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+          {% else %}
+            {{ student.name }}
+          {% endif %}
+        </div>
+        <div class="role">
+          {{ student.role }}{% if student.period %} · {{ student.period }}{% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}

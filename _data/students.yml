@@ -1,0 +1,9 @@
+# List of students (e.g. advisees, research assistants).
+# Add entries with: name, role, period, and optional url.
+# period can be a year range like "2022–present" or a single year.
+
+- name: Hai Nguyen
+  role: Undergraduate Student
+  period: "2024–2026"
+  url: https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en
+
