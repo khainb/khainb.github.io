@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 [SDS 387: Linear Model](https://stat.utexas.edu/academics/graduate-course-inventory#SDS387): Teaching Assistant in Fall 2024
