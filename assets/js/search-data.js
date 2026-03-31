@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-welcome-to-my-blog",
+        },{id: "post-vertical-consensus-inference-vci",
       
-        title: "Welcome to my blog",
+        title: "Vertical Consensus Inference (VCI)",
       
-      description: "A short description that appears on the blog index page.",
+      description: "A New Framework for High-Dimensional Bayesian Clustering",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/welcome-post/";
+          window.location.href = "/blog/2026/VCI/";
         
       },
     },{id: "news-2-papers-distributional-sliced-wasserstein-and-applications-to-generative-modeling-spotlight-presentation-and-improving-relational-regularized-autoencoders-with-spherical-sliced-fused-gromov-wasserstein-are-accepted-at-iclr-2021",
