@@ -1,11 +1,29 @@
-# List of students (e.g. advisees, research assistants).
+# Advisees and research assistants, split by level.
 # Add entries with: name, role, period, optional status, and optional url.
 # period: year range like "2024–2026" or a single year.
 # status: current status, e.g. "Current", "Alumni", "Graduated 2024", "On leave"
 
-- name: Hai Nguyen
-  role: Undergraduate Student at HUST
-  period: "2024–2026"
-  status: Qualcomm AI Resident
-  url: https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en
+undergraduate:
+  - name: Minh-Phuc Truong
+    role: Undergraduate Student at HUST
+    period: "2026-Now"
+    status: Undergraduate Student at HUST
+    url: https://scholar.google.com/citations?user=BU32fZ4AAAAJ&hl=en
 
+  - name: Truong Nguyen
+    role: Undergraduate Student at HUST
+    period: "2026-Now"
+    status: Undergraduate Student at HUST
+
+  - name: Tien-Phat Nguyen
+    role: Undergraduate Student at HUST
+    period: "2026-Now"
+    status: Undergraduate Student at HUST
+
+  - name: Hai Nguyen
+    role: Undergraduate Student at HUST
+    period: "2024–2026"
+    status: Qualcomm AI Resident
+    url: https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en
+
+phd: []

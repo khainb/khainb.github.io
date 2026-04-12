@@ -879,6 +879,15 @@ footer.sticky-bottom {
 .students {
   margin-top: 2rem;
 
+  .student-section-heading {
+    font-size: 1.1rem;
+    margin: 1.75rem 0 0.75rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
   .student-list {
     list-style: none;
     padding: 0;
