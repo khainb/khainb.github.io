@@ -18,7 +18,7 @@
           {% endif %}
         </div>
         <div class="role">
-          {{ student.role }}{% if student.period %} ? {{ student.period }}{% endif %}
+          {{ student.role }}{% if student.period %} &mdash; {{ student.period }}{% endif %}
           {% if student.status %}
             <span class="student-status">{{ student.status }}</span>
           {% endif %}
@@ -43,7 +43,7 @@
           {% endif %}
         </div>
         <div class="role">
-          {{ student.role }}{% if student.period %} ? {{ student.period }}{% endif %}
+          {{ student.role }}{% if student.period %} &mdash; {{ student.period }}{% endif %}
           {% if student.status %}
             <span class="student-status">{{ student.status }}</span>
           {% endif %}
