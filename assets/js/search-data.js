@@ -48,6 +48,17 @@ ninja.data = [{
       
         title: "Vertical Consensus Inference (VCI)",
       
+      description: "Sliced-Regularized Optimal Transport",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/SROT/";
+        
+      },
+    },{id: "post-vertical-consensus-inference-vci",
+      
+        title: "Vertical Consensus Inference (VCI)",
+      
       description: "A New Framework for High-Dimensional Bayesian Clustering",
       section: "Posts",
       handler: () => {
