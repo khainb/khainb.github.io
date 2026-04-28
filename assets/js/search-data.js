@@ -44,11 +44,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-vertical-consensus-inference-vci",
+        },{id: "post-sliced-regularized-optimal-transport",
       
-        title: "Vertical Consensus Inference (VCI)",
+        title: "Sliced-Regularized Optimal Transport",
       
-      description: "Sliced-Regularized Optimal Transport",
+      description: "A new regularized Optimal Transport problem using a sliced Optimal Transport plan as the reference plan",
       section: "Posts",
       handler: () => {
         
