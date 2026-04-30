@@ -1,5 +1,22 @@
 ---
 ---
+
+@article{nguyen2025s,
+  abbr = {ICML},
+  title={Streaming Sliced Optimal Transport},
+  author={Nguyen, Khai},
+  journal={International Conference on Machine Learning},
+  published={true},
+  pdf={https://arxiv.org/pdf/2505.06835},
+  selected = {true},
+  google_scholar_id={V3AGJWp-ZtQC},
+  preview = {StreamSW.jpg},
+  code = {https://github.com/khainb/StreamSW},
+  abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
+  year={2026}
+}
+
+
 @article{nguyen2026sliced,
   abbr = {Preprint},
   title={Sliced-Regularized Optimal Transport},
@@ -63,20 +80,6 @@ code = {https://github.com/khainb/sbnpm-sot},
   year={2026}
 }
 
-@article{nguyen2025s,
-  abbr = {ICML},
-  title={Streaming Sliced Optimal Transport},
-  author={Nguyen, Khai},
-  journal={International Conference on Machine Learning},
-  published={true},
-  pdf={https://arxiv.org/pdf/2505.06835},
-  selected = {true},
-  google_scholar_id={V3AGJWp-ZtQC},
-  preview = {StreamSW.jpg},
-  code = {https://github.com/khainb/StreamSW},
-  abstract={Sliced optimal transport (SOT) or sliced Wasserstein (SW) distance is widely recognized for its statistical and computational scalability. In this work, we further enhance the computational scalability by proposing the first method for computing SW from sample streams, called \emph{streaming sliced Wasserstein} (Stream-SW). To define Stream-SW, we first introduce the streaming computation of the one-dimensional Wasserstein distance. Since the one-dimensional Wasserstein (1DW) distance has a closed-form expression, given by the absolute difference between the quantile functions of the compared distributions, we leverage quantile approximation techniques for sample streams to define the streaming 1DW distance. By applying streaming 1DW to all projections, we obtain Stream-SW. The key advantage of Stream-SW is its low memory complexity while providing theoretical guarantees on the approximation error. We demonstrate that Stream-SW achieves a more accurate approximation of SW than random subsampling, with lower memory consumption, in comparing  Gaussian distributions and mixtures of Gaussians from streaming samples. Additionally, we conduct experiments on point cloud classification, point cloud gradient flows, and streaming change point detection to further highlight the favorable performance of Stream-SW},
-  year={2026}
-}
 
 @article{nguyen2025bayesian,
   abbr = {Preprint},
