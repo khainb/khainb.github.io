@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Sliced-Regularized Optimal Transport",
       
-      description: "A new regularized Optimal Transport problem using a sliced Optimal Transport plan as the reference plan",
+      description: "A new regularized optimal transport problem using a sliced optimal transport plan as the reference plan",
       section: "Posts",
       handler: () => {
         
