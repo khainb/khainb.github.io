@@ -30,7 +30,7 @@
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#820000"
+  color: "#c4620e"
 
 "ICASSP":
   url: https://2023.ieeeicassp.org/
@@ -43,3 +43,6 @@
 "JCGS":
   url: https://www.nowpublishers.com/cgv
   color: "#0383a3"
+
+Preprint:
+  color: "#820000"
