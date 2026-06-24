@@ -68,6 +68,7 @@
   contents:
     - year: 2026
       items:
+        - Stellar Abstract Award at STAI-X
         - Bartroff Family Award for Research Excellence
         - Schmidt Science Fellows Finalist
         - UT Austin Professional Development Award
@@ -94,5 +95,5 @@
 - title: Professional Services
   type: list
   contents:
-    - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), Journal of Computational and Graphical Statistics (JCGS), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Transactions on Machine Learning Research  (TMLR), Statistics and Computing, IEEE Transactions on Information Theory, Machine Learning Journal.
+    - <u>Journal Reviewer:</u> Journal of Computational and Graphical Statistics (JCGS), Bayesian Analysis, Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Transactions on Machine Learning Research  (TMLR), Statistics and Computing, IEEE Transactions on Information Theory, Machine Learning Journal.
     - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021-2025), ICML (2021-2026), ICLR (2022-2026), AISTATS (2022-2026), AAAI (2023-2026), CVPR (2023-2025), ICCV (2023), ECCV (2024), ICASSP (2024-2025), COLM (2024), WACV (2026).
