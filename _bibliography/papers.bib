@@ -1,6 +1,16 @@
 ---
 ---
-
+@article{nguyen2026d2pp,
+  abbr = {Preprint},
+  title={Distributional Determinantal Point Process for Repulsive Clustering of Distributions},
+  author={Nguyen, Khai and Ni, Yang and Juarez-Colunga, Elizabeth and Mueller, Peter},
+  journal={Under Review},
+  pdf={https://https://arxiv.org/pdf/2607.21847},
+  selected = {true},
+  preview = {d2pp.jpg},
+  abstract={We introduce the distributional determinantal point process (dDPP) as a novel repulsive point process whose atoms are probability distributions rather than points in a real space. The dDPP is constructed via an L-ensemble with a sliced Wasserstein (SW) kernel between distributions. We show its validity as a well-defined point process. In the discrete setting, we derive concentration results for plug-in estimators of the L-ensemble, the correlation kernel, and their determinants given i.i.d. samples from the distributional atoms. Leveraging this framework, we propose a distribution-valued random partition model by way of a repulsive generalized Bayesian mixture model. The model places a dDPP prior over the atoms of the mixing measure and defines a generalized likelihood based on SW distance. To summarize posterior inference, we develop a decision-theoretic approach to report a point estimate of the mixing measure as a Bayes rule under a hierarchical optimal transport utility function. The latter is a natural choice given that the mixing measure is itself a distribution over distributions. We use the proposed framework for inference with single-cell gene expression data and human epilepsy data, producing interpretable and well-separated clusters that reflect meaningful structure in the data.}
+  year={2026}
+}
 @article{nguyen2025s,
   abbr = {ICML},
   title={Streaming Sliced Optimal Transport},
@@ -48,7 +58,7 @@
   journal={Under Review},
   pdf={https://arxiv.org/pdf/2603.27864},
   award={Stellar Abstract},
-  honor={Stellar Abstract Poster at STAI-X 2026},
+  honor={Stellar Abstract Award at STAI-X 2026},
   selected = {true},
   preview = {VCI.jpg},
   abstract={We review recently proposed Bayesian approaches for clustering high-dimensional data. After identifying the main limitations of available approaches, we introduce an alternative framework based on vertical consensus inference (VCI) to mitigate the curse of dimensionality in high-dimensional Bayesian clustering. VCI builds on the idea of consensus Monte Carlo by dividing the data into multiple shards (smaller subsets of variables), performing posterior inference on each shard, and then combining the shard-level posteriors to obtain a consensus posterior. The key distinction is that VCI splits the data vertically, producing vertical shards that retain the same number of observations but have lower dimensionality. We use an entropic regularized Wasserstein barycenter to define a consensus posterior. The shard-specific barycenter weights are constructed to favor shards that provide meaningful partitions, distinct from a trivial single cluster or all singleton clusters, favoring balanced cluster sizes and precise shard-specific posterior random partitions. We show that VCI can be interpreted as a variational approximation to the posterior under a hierarchical model with a generalized Bayes prior. For relatively low-dimensional problems, experiments suggest that VCI closely approximates inference based on clustering the entire multivariate data. For high-dimensional data and in the presence of many noninformative dimensions, VCI introduces a new framework for model-based and principled inference on random partitions. Although our focus here is on random partitions, VCI can be applied to any dimension-independent parameters and serves as a bridge to emerging areas in statistics such as consensus Monte Carlo, optimal transport, variational inference, and generalized Bayes.},
