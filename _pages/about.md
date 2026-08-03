@@ -22,19 +22,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Khai, a final-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
-[Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259), and to be associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
-Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) (acquired by Qualcomm AI Research) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
+I'm an assistant professor in the  [Department of Statistics](https://artsci.tamu.edu/statistics/index.html)  at [Texas A&M University](https://www.tamu.edu/index.html). I received my Ph.D. in Statistics from <a href="https://www.utexas.edu/" style="color: #bf5700;">University of Texas at Austin</a>. I graduated from  <a href="https://soict.hust.edu.vn/" style="color: #d62728;">Hanoi University of Science and Technology</a> with a Computer Science Bachelor's degree.
+Before graduate school, I was an AI Research Resident at <a href="http://www.vinai.io" style="color: #1f77b4;">VinAI Research</a> (acquired by Qualcomm AI Research).
 
-[comment]: <> (I’m always open to collaborations, discussions, and exploring new opportunities. Don’t hesitate to reach out if you’re interested in my research or want to discuss potential research projects.)
 
-**I will be joining the 
-<a href="https://artsci.tamu.edu/statistics/index.html" style="color: #500000;">Department of Statistics</a> 
-at 
-<a href="https://www.tamu.edu/index.html" style="color: #500000;">Texas A&M University</a> 
-as a tenure-track assistant professor in Fall 2026.**
-
-**Prospective students:** Please consider applying to <a href="https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html" style="color: #500000;">Statistics at Texas A&M</a>. Admission decision is made by a graduate admissions committee.
+**Prospective students:** Please consider applying to [Statistics at Texas A&M University](https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html). Admission decision is made by a graduate admissions committee.
 
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
