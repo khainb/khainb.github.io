@@ -7,10 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+[STAT 639: Data Mining & Analysis](https://tamu.simplesyllabus.com/doc/fl493nzu7/Fall-2026-College-Station-STAT-639-600-%2866529%29-DATA-MINING-%26-ANALYSIS?mode=view): Instructor in Fall 2026
+
 [SDS 387: Linear Model](https://stat.utexas.edu/academics/graduate-course-inventory#SDS387): Teaching Assistant in Fall 2024
 
 [SDS 320E: Elements of Statistics](https://stat.utexas.edu/academics/undergraduate-course-inventory#SDS320E): Teaching Assistant in Fall 2024
 
-[comment]: <> (For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.)
-
-[comment]: <> (Organize your courses by years, topics, or universities, however you like!)
