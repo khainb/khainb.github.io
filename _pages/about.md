@@ -22,11 +22,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an assistant professor in the  [Department of Statistics](https://artsci.tamu.edu/statistics/index.html)  at [Texas A&M University](https://www.tamu.edu/index.html). I received my Ph.D. in Statistics from <a href="https://www.utexas.edu/" style="color: #bf5700;">University of Texas at Austin</a>. I graduated from  <a href="https://soict.hust.edu.vn/" style="color: #d62728;">Hanoi University of Science and Technology</a> with a Computer Science Bachelor's degree.
+I'm an Assistant Professor in the  [Department of Statistics](https://artsci.tamu.edu/statistics/index.html)  at [Texas A&M University](https://www.tamu.edu/index.html). I received my Ph.D. in Statistics from <a href="https://www.utexas.edu/" style="color: #bf5700;">University of Texas at Austin</a>. I graduated from  <a href="https://soict.hust.edu.vn/" style="color: #d62728;">Hanoi University of Science and Technology</a> with a Computer Science Bachelor's degree.
 Before graduate school, I was an AI Research Resident at <a href="http://www.vinai.io" style="color: #1f77b4;">VinAI Research</a> (acquired by Qualcomm AI Research).
 
 
-**Prospective students:** Please consider applying to [Statistics at Texas A&M University](https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html). Admission decision is made by a graduate admissions committee.
+**Prospective PhD students:** Please consider applying to [Statistics at Texas A&M University](https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html). Admission decision is made by a graduate admissions committee.
 
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
