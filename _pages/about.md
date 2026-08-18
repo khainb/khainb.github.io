@@ -31,7 +31,7 @@ Before graduate school, I was an AI Research Resident at <a href="http://www.vin
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
 
-*(This video is created by using my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
+*(This animation is created by using my proposed [energy-based sliced Wasserstein distance](https://arxiv.org/pdf/2304.13586.pdf).)*
 
 
 
