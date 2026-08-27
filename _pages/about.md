@@ -25,6 +25,7 @@ social: true # includes social icons at the bottom of the page
 I'm an Assistant Professor in the  [Department of Statistics](https://artsci.tamu.edu/statistics/index.html)  at [Texas A&M University](https://www.tamu.edu/index.html). I received my Ph.D. in Statistics from <a href="https://www.utexas.edu/" style="color: #bf5700;">University of Texas at Austin</a>. I graduated from  <a href="https://soict.hust.edu.vn/" style="color: #d62728;">Hanoi University of Science and Technology</a> with a Computer Science Bachelor's degree.
 Before graduate school, I was an AI Research Resident at <a href="http://www.vinai.io" style="color: #1f77b4;">VinAI Research</a> (acquired by Qualcomm AI Research).
 
+**Office:** 450G Blocker Building, 3143 TAMU College Station, TX 77843-3143.
 
 **Prospective PhD students:** Please consider applying to [Statistics at Texas A&M University](https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html) ([#18 US](https://www.usnews.com/best-graduate-schools/top-science-schools/statistics-rankings) [#26 World](https://www.shanghairanking.com/rankings/gras/2025/AS0502)). Admission decision is made by a graduate admissions committee.
 
