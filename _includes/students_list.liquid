@@ -4,10 +4,10 @@
 {% assign has_phd = s.phd | size %}
 {% if has_ugrad > 0 or has_phd > 0 %}
 <div class="students">
-  {% if has_ugrad > 0 %}
-  <h3 class="student-section-heading">Undergraduate students</h3>
+  {% if has_phd > 0 %}
+  <h3 class="student-section-heading">PhD students</h3>
   <ol class="student-list">
-    {% for student in s.undergraduate %}
+    {% for student in s.phd %}
     <li>
       <div class="student-item">
         <div class="name">
@@ -29,10 +29,10 @@
   </ol>
   {% endif %}
 
-  {% if has_phd > 0 %}
-  <h3 class="student-section-heading">PhD students</h3>
+  {% if has_ugrad > 0 %}
+  <h3 class="student-section-heading">Undergraduate students</h3>
   <ol class="student-list">
-    {% for student in s.phd %}
+    {% for student in s.undergraduate %}
     <li>
       <div class="student-item">
         <div class="name">
