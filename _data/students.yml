@@ -3,6 +3,19 @@
 # period: year range like "2024–2026" or a single year.
 # status: current status, e.g. "Current", "Alumni", "Graduated 2024", "On leave"
 
+phd:
+  - name: Seokchan Oh
+    email: soh24@tamu.edu
+    role: Ph.D. Student at TAMU
+    period: "2026-Now"
+    url: https://artsci.tamu.edu/statistics/contact/profiles/seokchan-oh.html
+
+  - name: Leonardo Damian Cazares Trejo
+    email: leonardocazares@tamu.edu
+    role: Ph.D. Student at TAMU
+    period: "2026-Now"
+    url: https://artsci.tamu.edu/statistics/contact/profiles/leonardo-trejo.html
+
 undergraduate:
   - name: Minh-Phuc Truong
     role: Undergraduate Student at HUST
@@ -25,16 +38,3 @@ undergraduate:
     period: "2024–2026"
     status: Qualcomm AI Resident => Ph.D Student at Cornell
     url: https://scholar.google.com/citations?user=zIXsuREAAAAJ&hl=en
-
-phd:
-  - name: Seokchan Oh
-    email: soh24@tamu.edu
-    role: Ph.D. Student at TAMU
-    period: "2026-Now"
-    url: https://artsci.tamu.edu/statistics/contact/profiles/seokchan-oh.html
-
-  - name: Leonardo Damian Cazares Trejo
-    email: leonardocazares@tamu.edu
-    role: Ph.D. Student at TAMU
-    period: "2026-Now"
-    url: https://artsci.tamu.edu/statistics/contact/profiles/leonardo-trejo.html
