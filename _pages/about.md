@@ -29,6 +29,8 @@ Before graduate school, I was an AI Research Resident at <a href="http://www.vin
 
 **Prospective PhD students:** Please consider applying to [Statistics at Texas A&M University](https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html) ([#18 US](https://www.usnews.com/best-graduate-schools/top-science-schools/statistics-rankings) [#26 World](https://www.shanghairanking.com/rankings/gras/2025/AS0502)). Admission decision is made by a graduate admissions committee.
 
+**Interested in working with me?** Please send me an email. I’m always happy to discuss research collaborations and new ideas.
+
 <img src="https://khainb.github.io/assets/intro.gif" alt="GIF description" style="width: 100%;  height: auto;">
 
 
