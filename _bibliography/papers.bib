@@ -1,5 +1,18 @@
 ---
 ---
+@article{tran2026sow,
+  abbr = {Preprint},
+  title={Sliced Orlicz-Wasserstein},
+  author={Tran, Binh Thuan and Nguyen, Khai},
+  journal={Under Review},
+  pdf={https://arxiv.org/pdf/2609.32847},
+  selected = {true},
+  preview = {sow.jpg},
+  code={https://github.com/khainb/SOW},
+  abstract={We propose sliced Orlicz-Wasserstein (SOW) distance which is a generalization of sliced Wasserstein (SW) distance. SOW replaces the $L^p$ norm in SW with a Luxemburg norm cost induced by an Orlicz function $\phi$. First, we prove that SOW distance is a metric on the space of measures with finite Orlicz norm, and show that it recovers the SW distance when the Orlicz function is $\phi(x)=x^p$. Next, we derive the topological properties of the SOW distance. In particular, we show that convergence under SOW implies weak convergence, and the converse is true under the compact support condition. We then present the theoretical results for estimating the SOW distance. We derive sample complexity for both the distance itself and the powered functional of the distance, and prove their minimax optimality. In addition, we discuss the computational algorithm for approximating the SOW distance by Monte-Carlo estimation and bisection search, as well as the associated approximation error and computational complexity analysis. Our experimental results reveal the superior computational efficiency of SOW compared with Orlicz-Wasserstein (OW) distance. Also, in the experiments, we demonstrate the favorable flexibility of SOW distance over SW in detecting differences between distributions by comparing their performance in two-sample tests and evaluating generative models on image datasets.},
+  year={2026}
+}
+
 @article{nguyen2026hep,
   abbr = {Preprint},
   title={Generalized Bayesian Clustering with Regression for Unaligned Longitudinal Binary Data},
@@ -31,6 +44,7 @@
   pdf={https://arxiv.org/pdf/2604.15114},
   selected = {true},
   preview = {aot.jpg},
+  code = {https://github.com/tmp0810/Sliced-Amortized-OT},
   abstract={We propose a novel amortized optimization method for predicting optimal transport (OT) plans across multiple pairs of measures by leveraging Kantorovich potentials derived from sliced OT. We introduce two amortization strategies: regression-based amortization (RA-OT) and objective-based amortization (OA-OT). In RA-OT, we formulate a functional regression model that treats Kantorovich potentials from the original OT problem as responses and those obtained from sliced OT as predictors, and estimate these models via least-squares methods. In OA-OT, we estimate the parameters of the functional model by optimizing the Kantorovich dual objective. In both approaches, the predicted OT plan is subsequently recovered from the estimated potentials. As amortized OT methods, both RA-OT and OA-OT enable efficient solutions to repeated OT problems across different measure pairs by reusing information learned from prior instances to rapidly approximate new solutions. Moreover, by exploiting the structure provided by sliced OT, the proposed models are more parsimonious, independent of specific structures of the measures, such as the number of atoms in the discrete case, while achieving high accuracy. We demonstrate the effectiveness of our approaches on tasks including MNIST digit transport, color transfer, supply-demand transportation on spherical data, and mini-batch OT conditional flow matching.},
   year={2026}
 }
