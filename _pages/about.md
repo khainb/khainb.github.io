@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm an Assistant Professor in the  [Department of Statistics](https://artsci.tamu.edu/statistics/index.html)  at [Texas A&M University](https://www.tamu.edu/index.html). I received my Ph.D. in Statistics from <a href="https://www.utexas.edu/" style="color: #bf5700;">University of Texas at Austin</a>. I graduated from  <a href="https://soict.hust.edu.vn/" style="color: #d62728;">Hanoi University of Science and Technology</a> with a Computer Science Bachelor's degree.
-Before graduate school, I was an AI Research Resident at <a href="http://www.vinai.io" style="color: #1f77b4;">VinAI Research</a> (acquired by Qualcomm AI Research).
+Before graduate school, I was an AI Research Resident at VinAI Research (acquired by <a href="https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program" style="color: #3253DC;"> Qualcomm AI Research</a>). During my PhD, I have also spent time working at <a href="https://www.amazon.science/" style="color: #FF9900;">Amazon</a>, <a href="https://www.tri.global/" style="color: #EB0A1E;">Toyota</a>, and  <a href="https://about.att.com/sites/labs" style="color: #067AB4 ;">AT&T</a>.
 
 **Office:** 450G Blocker Building, 3143 TAMU College Station, TX 77843-3143.
 
